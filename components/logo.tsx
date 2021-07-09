@@ -1,21 +1,28 @@
+import Link from 'next/link';
+
 export default function Logo() {
     return (
         <div className='logo'>
-            <h3>
-                <span>&#60;</span>O. David <span>/ &#62;</span>
-            </h3>
-
+            <Link href='/' passHref>
+                <a>
+                    <span>&#60;</span> <h3>O. David </h3> <span> / &#62;</span>
+                </a>
+            </Link>
             <style jsx>
                 {`
                     .logo,
-                    .logo h3 {
+                    .logo a {
                         display: flex;
                         align-items: center;
                     }
+                    .logo a {
+                        cursor: pointer;
+                    }
                     .logo h3 {
                         color: white;
+                        margin: 0px 10px;
                     }
-                    .logo h3 span {
+                    .logo a span {
                         color: black;
                     }
                 `}

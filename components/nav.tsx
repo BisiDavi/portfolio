@@ -7,7 +7,7 @@ export default function Nav() {
         { name: 'About', href: '/about' },
         { name: 'Portfolio', href: '/portfolio' },
         { name: 'Blog', href: '/blog' },
-        { name: "Let's Talk", href: '/blog' },
+        { name: "Let's Talk", href: '/contact' },
     ];
 
     return (
