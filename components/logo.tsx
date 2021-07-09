@@ -19,11 +19,11 @@ export default function Logo() {
                         cursor: pointer;
                     }
                     .logo h3 {
-                        color: white;
+                        color: black;
                         margin: 0px 10px;
                     }
                     .logo a span {
-                        color: black;
+                        color: red;
                     }
                 `}
             </style>

@@ -20,7 +20,7 @@ export default function Pagelayout({ children }: PropsWithChildren<{}>) {
             <style jsx>
                 {`
                     .pagelayout {
-                        background-color: gray;
+                        background-color: white;
                         height: 100vh;
                         overflow: hidden;
                         width: 100%;
