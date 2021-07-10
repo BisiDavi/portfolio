@@ -21,7 +21,7 @@ export default function Banner() {
                 {`
                     .banner {
                         background-image: url('/wave.svg');
-                        height: 500px;
+                        height: 350px;
                         display: flex;
                         background-size: cover;
                         margin: auto;

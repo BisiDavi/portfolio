@@ -57,9 +57,44 @@
 
 .slider {
     display: flex;
-    width: 600px;
-    height: 200px;
+    width: 1200px;
+    height: 230px;
     margin: auto;
+}
+
+.slider .sliderContent {
+    margin: 0px 50px;
+    text-align: center;
+}
+
+.sliderContent p {
+    font-size: 16px;
+    width: 250px;
+    line-height: 22px;
+    margin: auto;
+}
+
+.sliderContent h3 {
+    font-size: 18px;
+    width: 250px;
+    margin: 10px auto;
+}
+
+.slider .sliderImage {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.darkMode .slider p,
+.darkMode .slider h3 {
+    color: white;
+}
+
+.lightMode .slider p,
+.lightMode .slider h3 {
+    color: black;
 }
 
 /* sidebar */

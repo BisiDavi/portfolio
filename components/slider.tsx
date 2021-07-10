@@ -6,13 +6,16 @@ import 'slick-carousel/slick/slick-theme.css';
 import styles from '@styles/theme.module.css';
 
 export default function AppSlider() {
-    let settings = {
+    const settings = {
         dots: true,
         infinite: true,
         speed: 500,
+        autoplayspeed: 2000,
         slidesToShow: 3,
         slidesToScroll: 1,
+        autoplay: true,
     };
+
     const sliderArray = [
         {
             image: '/responsive.svg',
@@ -44,12 +47,13 @@ export default function AppSlider() {
     return (
         <Slider className={styles.slider} {...settings}>
             {sliderArray.map((content, index) => (
-                <div key={index} className='content'>
+                <div key={index} className={styles.sliderContent}>
                     <Image
                         src={content.image}
                         alt={content.title}
-                        height={30}
-                        width={30}
+                        className={styles.sliderImage}
+                        height={50}
+                        width={50}
                     />
                     <h3>{content.title}</h3>
                     <p>{content.text}</p>
