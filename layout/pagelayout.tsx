@@ -1,18 +1,20 @@
+import { PropsWithChildren, useContext } from 'react';
 import dynamic from 'next/dynamic';
-import { PropsWithChildren } from 'react';
 import Sidebar from '@components/sidebar';
 import Banner from '@components/banner';
-
-import Wave from '@icons/wave';
+import { ThemeContext } from 'context/themeContext';
+import styles from '@styles/theme.module.css';
 
 const Header = dynamic(() => import('../components/header'));
 const Footer = dynamic(() => import('../components/footer'));
 
 export default function Pagelayout({ children }: PropsWithChildren<{}>) {
+    const { dark } = useContext(ThemeContext);
+    const themeState = dark ? styles.darkMode : styles.lightMode;
     return (
-        <div className='pagelayout'>
+        <div className={`pagelayout ${themeState}`}>
             <div className='page-grid'>
-                <div className='Header-grid'>
+                <div className={`Header-grid ${styles.headerGrid}`}>
                     <Header />
                     <Banner />
                 </div>

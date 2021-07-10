@@ -1,19 +1,8 @@
-import { createContext, PropsWithChildren } from 'react';
-
-const themes = {
-    dark: {
-        backgroundColor: 'black',
-        color: 'white',
-    },
-    light: {
-        backgroundColor: 'white',
-        color: 'black',
-    },
-};
+import { createContext } from 'react';
 
 const defaultThemeState = {
     dark: false,
-    toggleDark: (dark: boolean) => {},
+    toggleTheme: () => {},
 };
 
 export const ThemeContext = createContext(defaultThemeState);

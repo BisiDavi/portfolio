@@ -19,11 +19,9 @@ export default function Logo() {
                         cursor: pointer;
                     }
                     .logo h3 {
-                        color: black;
                         margin: 0px 10px;
                     }
                     .logo a span {
-                        color: #009fff;
                         font-weight: bold;
                     }
                 `}

@@ -1,14 +1,16 @@
 import { PropsWithChildren, useState } from 'react';
 import { ThemeContext } from './themeContext';
 
-export function ThemeProvider({ children }: PropsWithChildren<{}>) {
+export default function ThemeProvider({ children }: PropsWithChildren<{}>) {
     const [dark, setDark] = useState(false);
 
-    function toggleDark(dark) {
+    function toggleTheme() {
+        console.log('I was clicked');
         setDark(!dark);
     }
+    console.log('dark', dark);
     return (
-        <ThemeContext.Provider value={{ dark, toggleDark }}>
+        <ThemeContext.Provider value={{ dark, toggleTheme }}>
             {children}
         </ThemeContext.Provider>
     );

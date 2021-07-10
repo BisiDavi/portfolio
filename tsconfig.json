@@ -17,9 +17,12 @@
         "paths": {
             "@components/*": ["components/*"],
             "@layout/*": ["layout/*"],
-            "@icons/*": ["icons/*"]
+            "@icons/*": ["icons/*"],
+            "@styles/*": ["styles/*"],
+            "@context/*": ["context/*"]
+
         }
     },
-    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "icons/moonIcon.jsx"],
     "exclude": ["node_modules"]
 }

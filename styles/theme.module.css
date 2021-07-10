@@ -1,0 +1,30 @@
+/* .headerGrid */
+.headerGrid header svg {
+    height: 30px;
+    width: 30px;
+}
+.darkMode .headerGrid a,
+.darkMode .headerGrid header a h3 {
+    color: white;
+}
+
+.darkMode .headerGrid header {
+    background-color: black;
+}
+
+.darkMode .headerGrid a span {
+    color: red;
+}
+
+.lightMode .headerGrid a span {
+    color: #009fff;
+}
+
+.lightMode .headerGrid header a h3,
+.lightMode .headerGrid a {
+    color: black;
+}
+
+.lightMode .headerGrid header {
+    background-color: white;
+}

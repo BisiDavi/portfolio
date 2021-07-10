@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Logo from '@components/logo';
+import ThemeButton from './themeButton';
 
 export default function Header() {
     const HeaderLink = [
@@ -12,7 +13,7 @@ export default function Header() {
     return (
         <header className='header'>
             <Logo />
-            <nav className='Header'>
+            <nav className={`nav`}>
                 {HeaderLink.map((link, index) => {
                     return (
                         <Link key={index} href={link.href} passHref>
@@ -21,13 +22,16 @@ export default function Header() {
                     );
                 })}
             </nav>
+            <ThemeButton />
             <style jsx>
                 {`
                     .header {
                         display: flex;
                         align-items: center;
                         justify-content: space-between;
-                        margin: 20px 50px;
+                        padding: 20px 50px;
+                        height: 60px;
+                        width: 100%;
                     }
 
                     .header a {

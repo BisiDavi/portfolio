@@ -1,5 +1,4 @@
 import Pagelayout from '@layout/pagelayout';
-import Button from '@components/button';
 
 export default function Homepage() {
     return (
