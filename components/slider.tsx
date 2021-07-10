@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import Slider from 'react-slick';
 
 export default function AppSlider() {
@@ -9,26 +10,47 @@ export default function AppSlider() {
         slidesToShow: 3,
         slidesToScroll: 1,
     };
+    const sliderArray = [
+        {
+            image: '/responsive.svg',
+            text: 'Get clean, modern responsive site optimized for performance, search engines.',
+            title: 'RESPONSIVE WEBSITE DEVELOPMENT',
+        },
+        {
+            image: '/e-commerce.svg',
+            text: 'Integrate e-commerce platforms, payment gateways, custom product templates and more.',
+            title: 'ECOMMERCE',
+        },
+        {
+            image: '/analytics.svg',
+            text: 'Get insights into who is browsing your site, to enhance smarter business decisions.',
+            title: 'ANALYTICS',
+        },
+        {
+            image: '/audit.svg',
+            text: 'Want to improve your page performance, SEO, or user experience? Request an audit',
+            title: 'WEBSITE AUDITS',
+        },
+        {
+            image: '/cms.svg',
+            text: 'Integrate Headless CMS or Custom Wordpress theme. Get content update at your finger tip',
+            title: 'CONTENT MANAGEMENT',
+        },
+    ];
     return (
         <Slider {...settings}>
-            <div>
-                <h3>1</h3>
-            </div>
-            <div>
-                <h3>2</h3>
-            </div>
-            <div>
-                <h3>3</h3>
-            </div>
-            <div>
-                <h3>4</h3>
-            </div>
-            <div>
-                <h3>5</h3>
-            </div>
-            <div>
-                <h3>6</h3>
-            </div>
+            {sliderArray.map((content, index) => (
+                <div key={index} className='content'>
+                    <Image
+                        src={content.image}
+                        alt={content.title}
+                        height={30}
+                        width={30}
+                    />
+                    <h3>{content.title}</h3>
+                    <p>{content.text}</p>
+                </div>
+            ))}
         </Slider>
     );
 }

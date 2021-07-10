@@ -16,6 +16,16 @@
     color: red;
 }
 
+.darkMode .banner button:first-child {
+    background-color: black;
+    color: white;
+}
+
+.darkMode .banner button:last-child {
+    background-color: white;
+    color: black;
+}
+
 .lightMode .headerGrid a span {
     color: #009fff;
 }
@@ -27,4 +37,9 @@
 
 .lightMode .headerGrid header {
     background-color: white;
+}
+
+.lightMode .banner button:first-child {
+    background-color: white;
+    color: black;
 }
