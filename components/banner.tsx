@@ -10,7 +10,7 @@ export default function Banner() {
                     <span className='intro'>I&#39;m</span>
                     <span className='name'>Olubisi David Anderson</span>
                 </h1>
-                <p>A Full Stack Web Developer</p>
+                <p>A Full Stack Engineer</p>
                 <div className='button-group'>
                     <Button text='Resume' bgColor='white' color='black' />
                     <Button text='Contact me' />
@@ -26,9 +26,14 @@ export default function Banner() {
                         margin: auto;
                     }
                     .text {
-                        margin: 20px auto;
                         justify-content: center;
                         color: white;
+                        margin: 80px auto;
+                        height: 180px;
+                    }
+                    .text h1,
+                    .text h5 {
+                        margin: 10px 0;
                     }
                     .button-group {
                         display: flex;

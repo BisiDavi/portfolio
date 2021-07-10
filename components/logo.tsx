@@ -23,7 +23,8 @@ export default function Logo() {
                         margin: 0px 10px;
                     }
                     .logo a span {
-                        color: red;
+                        color: #009fff;
+                        font-weight: bold;
                     }
                 `}
             </style>
