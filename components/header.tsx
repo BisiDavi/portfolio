@@ -29,7 +29,7 @@ export default function Header() {
                         display: flex;
                         align-items: center;
                         justify-content: space-between;
-                        padding: 20px 50px;
+                        padding: 20px 150px;
                         height: 60px;
                         width: 100%;
                         position: fixed;

@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from '@components/button';
-import styles from '@styles/theme.module.css';
+import styles from '@styles/styles.module.css';
 
 export default function Banner() {
     return (

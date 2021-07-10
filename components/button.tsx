@@ -10,8 +10,8 @@ export default function Button({
                 .button {
                     color: ${color};
                     background-color: ${bgColor};
-                    border-radius: 5px;
-                    padding: 15px 20px;
+                    border-radius: 25px;
+                    padding: 10px 20px;
                     font: normal normal 16px/18px 'Roboto', sans-serif;
                     border: none;
                     cursor: pointer;

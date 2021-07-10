@@ -9,6 +9,8 @@
     width: 30px;
 }
 .darkMode .headerGrid a,
+.darkMode h3,
+.darkMode h5,
 .darkMode .headerGrid header a h3 {
     color: white;
 }
@@ -40,7 +42,9 @@
 }
 
 .lightMode .headerGrid header a h3,
-.lightMode .headerGrid a {
+.lightMode .headerGrid a,
+.lightMode h3,
+.lightMode h5 {
     color: #1c1818d1;
 }
 
@@ -58,8 +62,9 @@
 .slider {
     display: flex;
     width: 1200px;
-    height: 230px;
+    height: 200px;
     margin: auto;
+    margin-bottom: 60px;
 }
 
 .slider .sliderContent {
@@ -104,4 +109,48 @@
 
 .lightMode .sidebar svg {
     fill: #1c1818d1;
+}
+
+/* services */
+.lightMode .services,
+.lightMode .portfolio {
+    border-bottom: 1px solid #d6d6d6;
+}
+.learnMore {
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+}
+
+.services .learnMore button {
+    border: 1px solid #009fff;
+    border-radius: 25px;
+    padding: 10px 20px;
+    background-color: transparent;
+}
+.darkMode .services,
+.darkMode .portfolio {
+    border-bottom: 1px solid white;
+}
+
+.darkMode .services button {
+    color: white;
+}
+
+.lightMode .services button {
+    color: black;
+}
+
+/* porfolio */
+
+/* contact */
+.lightMode .contact form input,
+.lightMode .contact form textarea {
+    border: 1px solid #d6d6d6;
+}
+
+.darkMode .contact form input,
+.darkMode .contact form textarea {
+    border: 1px solid white;
 }

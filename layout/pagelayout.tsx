@@ -3,7 +3,7 @@ import dynamic from 'next/dynamic';
 import Sidebar from '@components/sidebar';
 import Banner from '@components/banner';
 import { ThemeContext } from 'context/themeContext';
-import styles from '@styles/theme.module.css';
+import styles from '@styles/styles.module.css';
 
 const Header = dynamic(() => import('../components/header'));
 const Footer = dynamic(() => import('../components/footer'));
@@ -12,7 +12,7 @@ export default function Pagelayout({ children }: PropsWithChildren<{}>) {
     const { dark } = useContext(ThemeContext);
     const themeState = dark ? styles.darkMode : styles.lightMode;
     return (
-        <div className={`pagelayout ${themeState}`}>
+        <main className={`pagelayout ${themeState}`}>
             <div className='page-grid'>
                 <div className={`Header-grid ${styles.headerGrid}`}>
                     <Header />
@@ -30,13 +30,13 @@ export default function Pagelayout({ children }: PropsWithChildren<{}>) {
             <style jsx>
                 {`
                     .pagelayout {
-                        height: 100vh;
+                        height: 100%;
                         width: 100%;
                     }
                     .page-grid {
                         display: grid;
                         grid-template-columns: 1fr;
-                        grid-template-rows: 1fr 12fr 1fr;
+                        grid-template-rows: 1fr 2fr 100px;
                         height: 100%;
                         width: 100%;
                         position: relative;
@@ -69,6 +69,6 @@ export default function Pagelayout({ children }: PropsWithChildren<{}>) {
                     }
                 `}
             </style>
-        </div>
+        </main>
     );
 }
