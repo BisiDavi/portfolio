@@ -1,12 +1,20 @@
+import dynamic from 'next/dynamic';
 import { PropsWithChildren } from 'react';
-import { Nav, Sidebar, Footer } from '@components/.';
+import Sidebar from '@components/sidebar';
+import Banner from '@components/banner';
+
+import Wave from '@icons/wave';
+
+const Header = dynamic(() => import('../components/header'));
+const Footer = dynamic(() => import('../components/footer'));
 
 export default function Pagelayout({ children }: PropsWithChildren<{}>) {
     return (
         <div className='pagelayout'>
             <div className='page-grid'>
-                <div className='nav-grid'>
-                    <Nav />
+                <div className='Header-grid'>
+                    <Header />
+                    <Banner />
                 </div>
                 <div className='sidebar-grid'>
                     <Sidebar />
@@ -33,7 +41,7 @@ export default function Pagelayout({ children }: PropsWithChildren<{}>) {
                         width: 100%;
                     }
 
-                    .nav-grid {
+                    .Header-grid {
                         grid-column: 1/3;
                         grid-row: 1;
                     }
@@ -49,6 +57,9 @@ export default function Pagelayout({ children }: PropsWithChildren<{}>) {
                     .footer-grid {
                         grid-column: 1/3;
                         grid-row: 3/4;
+                        align-self: center;
+                        border-top: 1px solid gray;
+                        padding-top: 15px;
                     }
                 `}
             </style>

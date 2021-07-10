@@ -1,12 +1,14 @@
-import React from 'react';
-
-export default function Button({ text, bgColor = 'black' }: ButtonProps) {
+export default function Button({
+    text,
+    bgColor = 'black',
+    color = 'white',
+}: ButtonProps) {
     return (
         <>
             <button className='button'>{text}</button>
             <style jsx>{`
                 .button {
-                    color: white;
+                    color: ${color};
                     background-color: ${bgColor};
                     border-radius: 5px;
                     padding: 15px 20px;
@@ -22,4 +24,5 @@ export default function Button({ text, bgColor = 'black' }: ButtonProps) {
 interface ButtonProps {
     text: string;
     bgColor?: string;
+    color?: string;
 }

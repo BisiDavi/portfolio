@@ -3,11 +3,9 @@ import Image from 'next/image';
 export default function Footer() {
     const icons = [
         'reactjs',
-        'vue',
         'nextjs',
         'nodejs',
         'php',
-        'python',
         'graphql',
         'mongodb',
         'postgresql',
@@ -39,7 +37,7 @@ export default function Footer() {
                         margin: auto;
                     }
                     .icon {
-                        margin: 0px 15px;
+                        margin: 0px 25px;
                     }
                 `}
             </style>

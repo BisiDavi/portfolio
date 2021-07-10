@@ -71,6 +71,11 @@ export default function Sidebar() {
                         height: 40px;
                         width: 40px;
                     }
+
+                    svg:hover {
+                        transform: rotate(360deg);
+                        transition-duration: 1s;
+                    }
                 `}
             </style>
         </div>

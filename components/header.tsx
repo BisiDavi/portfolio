@@ -1,41 +1,40 @@
 import Link from 'next/link';
-import { Logo } from '@components/.';
+import Logo from '@components/logo';
 
-export default function Nav() {
-    const navLink = [
-        { name: 'Home', href: '/' },
-        { name: 'About', href: '/about' },
-        { name: 'Portfolio', href: '/portfolio' },
-        { name: 'Blog', href: '/blog' },
-        { name: "Let's Talk", href: '/contact' },
+export default function Header() {
+    const HeaderLink = [
+        { name: 'Services', href: '#service' },
+        { name: 'Portfolio', href: '#portfolio' },
+        { name: 'Pricing', href: '#pricing' },
+        { name: "Let's Talk", href: '#contact' },
     ];
 
     return (
-        <div className='nav'>
+        <header className='header'>
             <Logo />
-            <div className='nav-links'>
-                {navLink.map((link, index) => {
+            <nav className='Header'>
+                {HeaderLink.map((link, index) => {
                     return (
                         <Link key={index} href={link.href} passHref>
                             <a>{link.name}</a>
                         </Link>
                     );
                 })}
-            </div>
+            </nav>
             <style jsx>
                 {`
-                    .nav {
+                    .header {
                         display: flex;
                         align-items: center;
                         justify-content: space-between;
                         margin: 20px 50px;
                     }
 
-                    .nav a {
+                    .header a {
                         margin: 0px 20px;
                     }
                 `}
             </style>
-        </div>
+        </header>
     );
 }
