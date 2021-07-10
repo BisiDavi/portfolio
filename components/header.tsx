@@ -32,6 +32,7 @@ export default function Header() {
                         padding: 20px 50px;
                         height: 60px;
                         width: 100%;
+                        position: fixed;
                     }
 
                     .header a {

@@ -1,3 +1,8 @@
+/* themestate */
+.darkMode {
+    background-color: #1c1818d1;
+}
+
 /* .headerGrid */
 .headerGrid header svg {
     height: 30px;
@@ -9,7 +14,7 @@
 }
 
 .darkMode .headerGrid header {
-    background-color: black;
+    background-color: #1c1818d1;
 }
 
 .darkMode .headerGrid a span {
@@ -17,13 +22,17 @@
 }
 
 .darkMode .banner button:first-child {
-    background-color: black;
+    background-color: #1c1818d1;
     color: white;
 }
 
 .darkMode .banner button:last-child {
     background-color: white;
-    color: black;
+    color: #1c1818d1;
+}
+
+.lightMode {
+    background-color: white;
 }
 
 .lightMode .headerGrid a span {
@@ -32,7 +41,7 @@
 
 .lightMode .headerGrid header a h3,
 .lightMode .headerGrid a {
-    color: black;
+    color: #1c1818d1;
 }
 
 .lightMode .headerGrid header {
@@ -41,5 +50,23 @@
 
 .lightMode .banner button:first-child {
     background-color: white;
-    color: black;
+    color: #1c1818d1;
+}
+
+/* slider */
+
+.slider {
+    display: flex;
+    width: 600px;
+    height: 200px;
+    margin: auto;
+}
+
+/* sidebar */
+.darkMode .sidebar svg {
+    fill: white;
+}
+
+.lightMode .sidebar svg {
+    fill: #1c1818d1;
 }

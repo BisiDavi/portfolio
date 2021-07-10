@@ -1,9 +1,12 @@
 import React from 'react';
 import Image from 'next/image';
 import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import styles from '@styles/theme.module.css';
 
 export default function AppSlider() {
-    var settings = {
+    let settings = {
         dots: true,
         infinite: true,
         speed: 500,
@@ -37,8 +40,9 @@ export default function AppSlider() {
             title: 'CONTENT MANAGEMENT',
         },
     ];
+
     return (
-        <Slider {...settings}>
+        <Slider className={styles.slider} {...settings}>
             {sliderArray.map((content, index) => (
                 <div key={index} className='content'>
                     <Image

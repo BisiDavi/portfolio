@@ -67,7 +67,6 @@ export default function Sidebar() {
                     }
 
                     .icon svg {
-                        fill: black;
                         height: 40px;
                         width: 40px;
                     }

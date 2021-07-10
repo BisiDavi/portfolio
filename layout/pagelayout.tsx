@@ -18,7 +18,7 @@ export default function Pagelayout({ children }: PropsWithChildren<{}>) {
                     <Header />
                     <Banner />
                 </div>
-                <div className='sidebar-grid'>
+                <div className={`sidebar-grid ${styles.sidebar}`}>
                     <Sidebar />
                 </div>
                 <div className='content-grid'>{children}</div>
@@ -30,17 +30,16 @@ export default function Pagelayout({ children }: PropsWithChildren<{}>) {
             <style jsx>
                 {`
                     .pagelayout {
-                        background-color: white;
                         height: 100vh;
-                        overflow: hidden;
                         width: 100%;
                     }
                     .page-grid {
                         display: grid;
-                        grid-template-columns: 200px 1fr;
+                        grid-template-columns: 1fr;
                         grid-template-rows: 1fr 12fr 1fr;
-                        height: 100vh;
+                        height: 100%;
                         width: 100%;
+                        position: relative;
                     }
 
                     .Header-grid {
@@ -51,9 +50,14 @@ export default function Pagelayout({ children }: PropsWithChildren<{}>) {
                     .sidebar-grid {
                         grid-column: 1/1;
                         grid-row: 2/3;
+                        position: fixed;
+                        left: 0;
+                        top: 400px;
+                        z-index: 10;
+                        width: 150px;
                     }
                     .content-grid {
-                        grid-column: 2/3;
+                        grid-column: 1/3;
                         grid-row: 2/3;
                     }
                     .footer-grid {
