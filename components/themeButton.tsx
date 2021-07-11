@@ -1,4 +1,4 @@
-import { useContext } from 'react';
+import { useContext, useState, useEffect } from 'react';
 import { ThemeContext } from '@context/themeContext';
 import useLocalStorage from '@hooks/useLocalStorage';
 import MoonIcon from '@icons/moonIcon';
@@ -22,12 +22,19 @@ function ToggleThemeButton({ themeState, onClick }) {
 
 export default function ThemeButton({ themeState }) {
     const { dark, toggleTheme } = useContext(ThemeContext);
+    const [toggled, setToggled] = useState(null);
     const { setValue } = useLocalStorage();
 
     function updateTheme() {
         toggleTheme();
-        setValue('theme', dark);
+        setToggled(true);
     }
+
+    useEffect(() => {
+        if (toggled) {
+            setValue('theme', dark);
+        }
+    }, [toggled, dark, setValue]);
 
     return (
         <div className='themebutton'>
