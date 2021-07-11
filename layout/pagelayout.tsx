@@ -1,21 +1,38 @@
-import { PropsWithChildren, useContext } from 'react';
+import { PropsWithChildren, useEffect, useState, useContext } from 'react';
 import dynamic from 'next/dynamic';
 import Sidebar from '@components/sidebar';
 import Banner from '@components/banner';
 import { ThemeContext } from 'context/themeContext';
+import useLocalStorage from '@hooks/useLocalStorage';
 import styles from '@styles/styles.module.css';
 
 const Header = dynamic(() => import('../components/header'));
 const Footer = dynamic(() => import('../components/footer'));
 
 export default function Pagelayout({ children }: PropsWithChildren<{}>) {
+    const [savedThemeState, setSavedThemeState] = useState(null);
     const { dark } = useContext(ThemeContext);
-    const themeState = dark ? styles.darkMode : styles.lightMode;
+    const { getValue } = useLocalStorage();
+
+    useEffect(() => {
+        const savedTheme = Boolean(getValue('theme'));
+        if (savedTheme !== undefined && savedTheme !== null) {
+            return setSavedThemeState(savedTheme);
+        }
+    }, [getValue]);
+
+    const theme =
+        savedThemeState !== null && savedThemeState !== undefined
+            ? savedThemeState
+            : dark;
+
+    const themeState = theme ? styles.darkMode : styles.lightMode;
+
     return (
         <main className={`pagelayout ${themeState}`}>
             <div className='page-grid'>
                 <div className={`Header-grid ${styles.headerGrid}`}>
-                    <Header />
+                    <Header themeState={theme} />
                     <Banner />
                 </div>
                 <div className={`sidebar-grid ${styles.sidebar}`}>

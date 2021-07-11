@@ -11,7 +11,7 @@ export default function Banner() {
                     <span className='intro'>I&#39;m</span>
                     <span className='name'>Olubisi David Anderson</span>
                 </h1>
-                <p>A Full Stack Engineer</p>
+                <p>A Full Stack JavaScript Engineer</p>
                 <div className='button-group'>
                     <Button text='Resume' bgColor='white' color='black' />
                     <a href='#contact'>

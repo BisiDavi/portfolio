@@ -1,5 +1,6 @@
 import { useContext } from 'react';
-import { ThemeContext } from 'context/themeContext';
+import { ThemeContext } from '@context/themeContext';
+import useLocalStorage from '@hooks/useLocalStorage';
 import MoonIcon from '@icons/moonIcon';
 import SunIcon from '@icons/sunIcon';
 
@@ -19,11 +20,18 @@ function ToggleThemeButton({ themeState, onClick }) {
     );
 }
 
-export default function ThemeButton() {
+export default function ThemeButton({ themeState }) {
     const { dark, toggleTheme } = useContext(ThemeContext);
+    const { setValue } = useLocalStorage();
+
+    function updateTheme() {
+        toggleTheme();
+        setValue('theme', dark);
+    }
+
     return (
         <div className='themebutton'>
-            <ToggleThemeButton themeState={dark} onClick={toggleTheme} />
+            <ToggleThemeButton themeState={themeState} onClick={updateTheme} />
         </div>
     );
 }

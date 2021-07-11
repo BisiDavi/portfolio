@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Logo from '@components/logo';
 import ThemeButton from './themeButton';
 
-export default function Header() {
+export default function Header({ themeState }) {
     const HeaderLink = [
         { name: 'Services', href: '#services' },
         { name: 'Portfolio', href: '#portfolios' },
@@ -21,7 +21,7 @@ export default function Header() {
                     );
                 })}
             </nav>
-            <ThemeButton />
+            <ThemeButton themeState={themeState} />
             <style jsx>
                 {`
                     .header {
