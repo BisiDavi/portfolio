@@ -1,16 +1,55 @@
-import React from 'react';
+import { useState } from 'react';
+import Button from './button';
 import styles from '@styles/styles.module.css';
 
 export default function Contact() {
+    const [contact, setContact] = useState({
+        email: '',
+        message: '',
+    });
+    function handleChange(e) {
+        setContact({
+            ...contact,
+            [e.target.name]: e.target.value,
+        });
+    }
+
+    function submitForm(e) {
+        e.preventDefault();
+        fetch('/api/contact', {
+            body: JSON.stringify(contact),
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+        });
+    }
+
+    console.log('contact', contact);
     return (
         <section id='contact' className={`contact ${styles.contact}`}>
             <h3>Get in touch</h3>
 
             <form>
                 <label htmlFor='email'>EMAIL</label>
-                <input id='email' type='email' placeholder='Email' />
+                <input
+                    id='email'
+                    name='email'
+                    onChange={handleChange}
+                    type='email'
+                    placeholder='Email'
+                />
                 <label htmlFor='message'>MESSAGE</label>
-                <textarea id='message' rows={10} cols={50}></textarea>
+                <textarea
+                    name='message'
+                    id='message'
+                    rows={10}
+                    onChange={handleChange}
+                    cols={50}
+                ></textarea>
+                <div className='button'>
+                    <Button onClick={submitForm} text='Submit' />
+                </div>
             </form>
             <style jsx>
                 {`
@@ -29,6 +68,10 @@ export default function Contact() {
                         display: flex;
                         flex-direction: column;
                     }
+                    .button {
+                        width: 200px;
+                        margin: 20px auto;
+                    }
                     .contact form label {
                         margin-bottom: 20px;
                     }
@@ -42,6 +85,13 @@ export default function Contact() {
                         height: 40px;
                         border-radius: 25px;
                         margin-bottom: 20px;
+                    }
+
+                    @media (max-width: 500px) {
+                        section#contact form {
+                            width: 70%;
+                            margin: auto;
+                        }
                     }
                 `}
             </style>

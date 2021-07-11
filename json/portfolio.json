@@ -1,0 +1,33 @@
+[
+    {
+        "image": {
+            "laptop": "/cloudmall_macbook.webp",
+            "mobile": "/cloudmall_mobile.webp"
+        },
+        "title": "Cloudmall Africa",
+        "link": "https://www.cloudmall.africa/",
+        "description": "A platform to purchase food, groceries, daily needs, raw food, books, dry pet food, wines, e.tc. at your convenience ",
+        "tech": ["nextjs", "typescript", "reactjs"]
+    },
+    {
+        "image": { "mobile": "/jenjen_mobile.webp", "laptop": "" },
+        "title": "Jenjen's Luxury Wigs Store",
+        "link": "https://www.jenjensluxury.com/",
+        "description": "An e-commerce platform where you can buy wigs at an affordable rate.",
+        "tech": ["nextjs", "typescript", "mongodb", "reactjs"]
+    },
+    {
+        "image": { "laptop": "", "mobile": "" },
+        "title": "Tega Portfolio",
+        "link": "https://tegagames.com.ng/",
+        "description": "A portfolio site for a game developer, custom wordpress theme development",
+        "tech": ["wordpress", "php"]
+    },
+    {
+        "image": { "laptop": "", "mobile": "" },
+        "title": "The HMI ",
+        "link": "https://the-hmi.herokuapp.com",
+        "description": "An event place for wine, to associate, play games",
+        "tech": ["laravel", "php"]
+    }
+]

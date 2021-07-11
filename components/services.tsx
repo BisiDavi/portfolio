@@ -4,10 +4,12 @@ import styles from '@styles/styles.module.css';
 
 export default function Services() {
     return (
-        <section id="services" className={styles.services}>
+        <section id='services' className={styles.services}>
             <AppSlider />
             <div className={styles.learnMore}>
-                <Button text='Learn More' />
+                <a href='#portfolios'>
+                    <Button text='Learn More' />
+                </a>
             </div>
             <style jsx>
                 {`

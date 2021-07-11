@@ -2,10 +2,13 @@ export default function Button({
     text,
     bgColor = 'black',
     color = 'white',
+    onClick,
 }: ButtonProps) {
     return (
         <>
-            <button className='button'>{text}</button>
+            <button onClick={onClick} className='button'>
+                {text}
+            </button>
             <style jsx>{`
                 .button {
                     color: ${color};
@@ -17,6 +20,12 @@ export default function Button({
                     cursor: pointer;
                     font-family: 'Raleway', sans-serif;
                 }
+                @media (max-width: 500px) {
+                    button.button {
+                        font: normal normal 14px/16px 'Raleway', sans-serif;
+                        padding: 5px 20px;
+                    }
+                }
             `}</style>
         </>
     );
@@ -26,4 +35,5 @@ interface ButtonProps {
     text: string;
     bgColor?: string;
     color?: string;
+    onClick?: (e: any) => void;
 }

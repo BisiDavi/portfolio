@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import styles from '@styles/styles.module.css';
 
 export default function Footer() {
     const icons = [
@@ -13,7 +14,7 @@ export default function Footer() {
         'git',
     ];
     return (
-        <div className='footer'>
+        <div className={`footer ${styles.footer}`}>
             <div className='icons'>
                 {icons.map((icon, index) => (
                     <span className='icon' key={index}>
@@ -30,6 +31,8 @@ export default function Footer() {
                 {`
                     .footer {
                         display: flex;
+                        padding: 20px;
+                        width: 100%;
                     }
                     .icons {
                         display: flex;
@@ -38,6 +41,20 @@ export default function Footer() {
                     }
                     .icon {
                         margin: 0px 25px;
+                    }
+
+                    @media (max-width: 500px) {
+                        .footer {
+                            align-items: center;
+                            justify-content: center;
+                            display: flex;
+                        }
+                        .footer .icons {
+                            display: grid;
+                            grid-template-columns: repeat(3, 100px);
+                            grid-gap: 10px;
+                            grid-template-rows: 1fr 1fr 1fr;
+                        }
                     }
                 `}
             </style>

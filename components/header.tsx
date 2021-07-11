@@ -5,7 +5,7 @@ import ThemeButton from './themeButton';
 export default function Header() {
     const HeaderLink = [
         { name: 'Services', href: '#services' },
-        { name: 'Portfolio', href: '#portfolio' },
+        { name: 'Portfolio', href: '#portfolios' },
         { name: "Let's Talk", href: '#contact' },
     ];
 
@@ -28,7 +28,7 @@ export default function Header() {
                         display: flex;
                         align-items: center;
                         justify-content: space-between;
-                        padding: 20px 150px;
+                        padding: 20px 120px;
                         height: 60px;
                         width: 100%;
                         position: fixed;
@@ -38,6 +38,21 @@ export default function Header() {
                     .header a {
                         margin: 0px 20px;
                         font-family: 'Raleway', sans-serif;
+                    }
+
+                    @media (max-width: 768px) {
+                        header.header {
+                            padding: 0px 20px;
+                        }
+                    }
+
+                    @media (max-width: 500px) {
+                        .header {
+                            padding: 20px;
+                        }
+                        .header nav {
+                            display: none;
+                        }
                     }
                 `}
             </style>

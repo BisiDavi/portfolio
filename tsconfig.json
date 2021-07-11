@@ -19,10 +19,10 @@
             "@layout/*": ["layout/*"],
             "@icons/*": ["icons/*"],
             "@styles/*": ["styles/*"],
-            "@context/*": ["context/*"]
-
+            "@context/*": ["context/*"],
+            "@json/*": ["json/*"]
         }
     },
-    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "icons/moonIcon.jsx", "pages/_document.tsx"],
+    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
     "exclude": ["node_modules"]
 }

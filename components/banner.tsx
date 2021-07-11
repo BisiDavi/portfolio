@@ -14,7 +14,9 @@ export default function Banner() {
                 <p>A Full Stack Engineer</p>
                 <div className='button-group'>
                     <Button text='Resume' bgColor='white' color='black' />
-                    <Button text='Contact me' />
+                    <a href='#contact'>
+                        <Button text='Contact me' />
+                    </a>
                 </div>
             </div>
             <style jsx>
@@ -25,6 +27,7 @@ export default function Banner() {
                         display: flex;
                         background-size: cover;
                         margin: auto;
+                        background-position: center;
                     }
                     .text {
                         justify-content: center;
@@ -32,6 +35,9 @@ export default function Banner() {
                         margin: 80px auto;
                         height: 180px;
                         font-family: 'Raleway', sans-serif;
+                    }
+                    .text h1 {
+                        font-size: 25px;
                     }
                     .text h1,
                     .text h5 {
@@ -58,6 +64,17 @@ export default function Banner() {
                     .text p {
                         font-family: 'Raleway', sans-serif;
                         font: normal normal 20px/22px 'Roboto', sans-serif;
+                    }
+
+                    @media (max-width: 500px) {
+                        .text h1,
+                        .text h5 {
+                            font: normal normal 18px/20px 'Raleway', sans-serif;
+                        }
+
+                        .text p {
+                            font: normal normal 16px/20px 'Raleway', sans-serif;
+                        }
                     }
                 `}
             </style>

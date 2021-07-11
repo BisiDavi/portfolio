@@ -17,17 +17,21 @@
 .darkMode .headerGrid a,
 .darkMode section h3,
 .darkMode section h5,
-.darkMode section label,
-.darkMode .headerGrid header a h3 {
+.darkMode p,
+.darkMode section label {
     color: white;
 }
+.darkMode .headerGrid header a h3 {
+    color: #009fff;
+}
 
-.darkMode .headerGrid header {
+.darkMode .headerGrid header,
+.darkMode .footer {
     background-color: #1c1818d1;
 }
 
 .darkMode .headerGrid a span {
-    color: red;
+    color: white;
 }
 
 .darkMode .banner button:first-child {
@@ -51,12 +55,14 @@
 .lightMode .headerGrid header a h3,
 .lightMode .headerGrid a,
 .lightMode section h3,
+.lightMode p,
 .lightMode section label,
 .lightMode section h5 {
     color: #1c1818d1;
 }
 
-.lightMode .headerGrid header {
+.lightMode .headerGrid header,
+.lightMode .footer {
     background-color: #f7f7f7;
 }
 
@@ -69,7 +75,7 @@
 
 .slider {
     display: flex;
-    width: 1200px;
+    width: 80%;
     height: 200px;
     margin: auto;
     margin-bottom: 60px;
@@ -156,6 +162,51 @@
 
 /* porfolio */
 
+.portfolios h3 {
+    text-align: center;
+    font: normal normal 28px/28px 'Raleway', sans-serif;
+}
+
+.portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px auto;
+    padding: 50px 100px;
+    position: relative;
+}
+
+.portfolios .description {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.portfolios .description h3 {
+    text-align: center;
+    font: normal normal 25px/28px 'Raleway', sans-serif;
+}
+.portfolios .description p {
+    text-align: center;
+    font: normal normal 18px/24px 'Raleway', sans-serif;
+}
+
+.portfolios .tech {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    box-shadow: 0px 0px 5px 1px darkgrey;
+    align-items: center;
+    width: 250px;
+    padding: 10px 20px;
+    justify-content: space-around;
+}
+.portfolios .tech img {
+    width: 25px;
+    height: 25px;
+}
+
 /* contact */
 .lightMode .contact form input,
 .lightMode .contact form textarea {
@@ -165,4 +216,64 @@
 .darkMode .contact form input,
 .darkMode .contact form textarea {
     border: 1px solid white;
+}
+
+section.contact form button {
+    width: 150px;
+    font: normal normal 20px/22px 'Raleway', sans-serif;
+    height: 40px;
+}
+
+/* footer */
+.lightMode .footer {
+    border-top: 1px solid #d6d6d6;
+}
+
+.darkMode .footer {
+    border-top: 1px solid white;
+}
+
+/* media queries */
+@media (max-width: 500px) {
+    .portfolio {
+        padding: 10px;
+        flex-direction: column;
+        margin: 20px 0px;
+    }
+
+    .portfolios .description {
+        width: unset;
+    }
+    .portfolios .description h3 {
+        font: normal normal 20px/1px 'Raleway', sans-serif;
+    }
+    .portfolios .description p {
+        font: normal normal 16px/22px 'Raleway', sans-serif;
+    }
+    .portfolios .tech {
+        position: unset;
+        box-shadow: 0px 0px 5px 1px darkgrey;
+        width: 200px;
+    }
+
+    .portfolios .portfolio img.laptop {
+        height: 250px;
+        width: 250px;
+        margin: 0px;
+    }
+
+    .visit {
+        margin: 20px auto;
+    }
+
+    .portfolios .portfolio img.mobile {
+        height: 150px;
+        width: 100px;
+        margin: 0px;
+    }
+
+    .portfolios .tech img {
+        height: 20px;
+        width: 20px;
+    }
 }
