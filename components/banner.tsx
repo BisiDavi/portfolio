@@ -31,10 +31,12 @@ export default function Banner() {
                         color: white;
                         margin: 80px auto;
                         height: 180px;
+                        font-family: 'Raleway', sans-serif;
                     }
                     .text h1,
                     .text h5 {
                         margin: 10px 0;
+                        font-family: 'Raleway', sans-serif;
                     }
                     .button-group {
                         display: flex;
@@ -51,8 +53,10 @@ export default function Banner() {
                     }
                     .text h5 {
                         font: normal normal 24px/25px 'Roboto', sans-serif;
+                        font-family: 'Raleway', sans-serif;
                     }
                     .text p {
+                        font-family: 'Raleway', sans-serif;
                         font: normal normal 20px/22px 'Roboto', sans-serif;
                     }
                 `}

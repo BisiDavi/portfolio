@@ -15,6 +15,7 @@ export default function Button({
                     font: normal normal 16px/18px 'Roboto', sans-serif;
                     border: none;
                     cursor: pointer;
+                    font-family: 'Raleway', sans-serif;
                 }
             `}</style>
         </>

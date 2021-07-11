@@ -4,7 +4,7 @@ import styles from '@styles/styles.module.css';
 
 export default function Services() {
     return (
-        <section className={styles.services}>
+        <section id="services" className={styles.services}>
             <AppSlider />
             <div className={styles.learnMore}>
                 <Button text='Learn More' />

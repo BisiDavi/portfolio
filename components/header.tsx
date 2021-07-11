@@ -4,9 +4,8 @@ import ThemeButton from './themeButton';
 
 export default function Header() {
     const HeaderLink = [
-        { name: 'Services', href: '#service' },
+        { name: 'Services', href: '#services' },
         { name: 'Portfolio', href: '#portfolio' },
-        { name: 'Pricing', href: '#pricing' },
         { name: "Let's Talk", href: '#contact' },
     ];
 
@@ -33,10 +32,12 @@ export default function Header() {
                         height: 60px;
                         width: 100%;
                         position: fixed;
+                        z-index: 1;
                     }
 
                     .header a {
                         margin: 0px 20px;
+                        font-family: 'Raleway', sans-serif;
                     }
                 `}
             </style>

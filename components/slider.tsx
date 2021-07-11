@@ -53,7 +53,7 @@ export default function AppSlider() {
         {
             image: '/e-commerce.svg',
             text: 'Integrate e-commerce platforms, payment gateways, custom product templates and more.',
-            title: 'ECOMMERCE',
+            title: 'E-COMMERCE',
         },
         {
             image: '/analytics.svg',
