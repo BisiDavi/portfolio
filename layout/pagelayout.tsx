@@ -59,8 +59,8 @@ export default function Pagelayout({ children }: PropsWithChildren<{}>) {
                     .sidebar-grid {
                         position: fixed;
                         left: 0;
-                        top: 400px;
-                        z-index: 10;
+                        top: 250px;
+                        z-index: 100;
                         width: 50px;
                     }
                     .footer-grid {
@@ -68,6 +68,11 @@ export default function Pagelayout({ children }: PropsWithChildren<{}>) {
                         border-top: 1px solid gray;
                         padding-top: 15px;
                         width: 100%;
+                    }
+                    @media (max-width: 500px) {
+                        .sidebar-grid {
+                            top: 100px;
+                        }
                     }
                 `}
             </style>
