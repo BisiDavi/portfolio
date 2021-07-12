@@ -3,10 +3,11 @@ export default function Button({
     bgColor = 'black',
     color = 'white',
     onClick,
+    type = 'button',
 }: ButtonProps) {
     return (
         <>
-            <button onClick={onClick} className='button'>
+            <button type={type} onClick={onClick} className='button'>
                 {text}
             </button>
             <style jsx>{`
@@ -36,4 +37,5 @@ interface ButtonProps {
     bgColor?: string;
     color?: string;
     onClick?: (e: any) => void;
+    type?: 'submit' | 'reset' | 'button';
 }

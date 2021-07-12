@@ -14,7 +14,7 @@ export default function Footer() {
         'git',
         'laravel',
         'typescript',
-        'gatsby',
+        'jest',
     ];
     return (
         <div className={`footer ${styles.footer}`}>
