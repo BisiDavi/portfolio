@@ -27,7 +27,7 @@
         "title": "Tega Portfolio",
         "link": "https://tegagames.com.ng/",
         "description": "A portfolio site for a game developer, custom wordpress theme development",
-        "tech": ["wordpress", "php"]
+        "tech": ["wordpress", "php", "mysql"]
     },
     {
         "image": {

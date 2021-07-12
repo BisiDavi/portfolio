@@ -9,9 +9,12 @@ export default function Footer() {
         'php',
         'graphql',
         'mongodb',
-        'postgresql',
+        'mysql',
         'wordpress',
         'git',
+        'laravel',
+        'typescript',
+        'gatsby',
     ];
     return (
         <div className={`footer ${styles.footer}`}>

@@ -17,7 +17,7 @@
 .darkMode .headerGrid a,
 .darkMode section h3,
 .darkMode section h5,
-.darkMode p,
+.darkMode section p,
 .darkMode section label {
     color: white;
 }
