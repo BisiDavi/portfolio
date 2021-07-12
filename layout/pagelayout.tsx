@@ -4,6 +4,7 @@ import Sidebar from '@components/sidebar';
 import Banner from '@components/banner';
 import { ThemeContext } from 'context/themeContext';
 import useLocalStorage from '@hooks/useLocalStorage';
+import WhatsAppChatWidget from '@components/whatsapp';
 import styles from '@styles/styles.module.css';
 
 const Header = dynamic(() => import('../components/header'));
@@ -39,6 +40,9 @@ export default function Pagelayout({ children }: PropsWithChildren<{}>) {
                     <Sidebar />
                 </div>
                 {children}
+                <div className='whatsapp'>
+                    <WhatsAppChatWidget />
+                </div>
                 <Footer />
             </div>
 
@@ -68,6 +72,11 @@ export default function Pagelayout({ children }: PropsWithChildren<{}>) {
                         border-top: 1px solid gray;
                         padding-top: 15px;
                         width: 100%;
+                    }
+                    .whatsapp {
+                        position: fixed;
+                        bottom: 30px;
+                        right: 0px;
                     }
                     @media (max-width: 500px) {
                         .sidebar-grid {
