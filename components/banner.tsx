@@ -13,7 +13,9 @@ export default function Banner() {
                 </h1>
                 <p>A Full Stack JavaScript Engineer</p>
                 <div className='button-group'>
-                    <Button text='Resume' bgColor='white' color='black' />
+                    <a href='/resume.pdf' download='Olubisi_david.pdf'>
+                        <Button text='Resume' bgColor='white' color='black' />
+                    </a>
                     <a href='#contact'>
                         <Button text='Contact me' />
                     </a>
