@@ -27,7 +27,9 @@ export default function ContactForm() {
         postData('/api/contact', contact)
             .then((data) => {
                 console.log('data', data);
-                toast.success(`Hello ${data.email} Thanks for reaching out`);
+                toast.success(
+                    `Hello ${data.data.email} Thanks for reaching out`,
+                );
                 setContact({
                     email: '',
                     message: '',
