@@ -52,19 +52,7 @@ class MyDocument extends Document {
                         href='/android-chrome-512x512.png'
                     />
                     <link rel='icon' type='image/png' href='/favicon.ico' />
-                    <link rel='manifest' href='/site.webmanifest' />
-                    <meta
-                        name='viewport'
-                        content='width=device-width, initial-scale=1'
-                    />
-                    <meta
-                        name='description'
-                        content='Olubisi David - A Full stack JavaScript web developer.'
-                    />
-                    <meta
-                        name='keywords'
-                        content='e-commerce,company site,cms,javascript, developer, web developer, hire web developer'
-                    />
+                    <link rel='manifest' href='/site.webmanifest' />                    
                 </Head>
                 <body>
                     <Main />

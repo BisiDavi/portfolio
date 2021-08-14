@@ -5,8 +5,7 @@ export default async function handler(req, res) {
     const { method } = req;
 
     await connectToDatabase().then((response) => {
-        console.log('response', response);
-        console.log('i am connected');
+        console.log('response, connected', response);
     });
 
     switch (method) {
