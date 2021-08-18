@@ -34,7 +34,7 @@ export default function Sidebar() {
                         </svg>
                     </a>
                 </div>
-                <div className='whatsapp icon'>
+                {/* <div className='whatsapp icon'>
                     <a
                         target='_blank'
                         rel='noreferrer'
@@ -50,6 +50,7 @@ export default function Sidebar() {
                         </svg>
                     </a>
                 </div>
+             */}
             </div>
             <style jsx>
                 {`
