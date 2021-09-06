@@ -1,6 +1,16 @@
 [
   {
     "image": {
+      "mobile": "/mobile-remoteok.webp",
+      "laptop": "/remoteok-laptop.webp"
+    },
+    "title": "Remote Ok Demo Job Portal",
+    "link": "https://remote-ok-demo.vercel.app/",
+    "description": "A job platform that displays Remote Jobs and enables you to post remote Jobs",
+    "tech": ["nextjs", "typescript", "mongodb", "reactjs"]
+  },
+  {
+    "image": {
       "mobile": "/jenjen_mobile.webp",
       "laptop": "/jenjen_laptop.webp"
     },
