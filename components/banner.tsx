@@ -9,7 +9,7 @@ export default function Banner() {
         <h5>Hello</h5>
         <h1>
           <span className="intro">I&#39;m</span>
-          <span className="name">Olubisi David Anderson</span>
+          <span className="name">Olubisi David</span>
         </h1>
         <p>A Full Stack JavaScript Engineer</p>
         <div className="button-group">
