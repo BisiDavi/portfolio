@@ -49,8 +49,8 @@ export default function Banner() {
                     .button-group {
                         display: flex;
                         align-items: center;
-                        width: 280px;
-                        justify-content: center;
+                        width: 100%;
+                        justify-content: space-between;
                     }
                     .intro {
                         margin: 0px 5px;

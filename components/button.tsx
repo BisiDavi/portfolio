@@ -1,13 +1,13 @@
 export default function Button({
     text,
-    bgColor = 'black',
-    color = 'white',
+    bgColor = "black",
+    color = "white",
     onClick,
-    type = 'button',
+    type = "button",
 }: ButtonProps) {
     return (
         <>
-            <button type={type} onClick={onClick} className='button'>
+            <button type={type} onClick={onClick} className="button">
                 {text}
             </button>
             <style jsx>{`
@@ -16,14 +16,18 @@ export default function Button({
                     background-color: ${bgColor};
                     border-radius: 25px;
                     padding: 10px 20px;
-                    font: normal normal 16px/18px 'Roboto', sans-serif;
+                    font: normal normal 16px/18px "Roboto", sans-serif;
                     border: none;
                     cursor: pointer;
-                    font-family: 'Raleway', sans-serif;
+                    font-family: "Raleway", sans-serif;
+                }
+                .button:hover {
+                    color: red;
+                    opacity: 0.8;
                 }
                 @media (max-width: 500px) {
                     button.button {
-                        font: normal normal 14px/16px 'Raleway', sans-serif;
+                        font: normal normal 14px/16px "Raleway", sans-serif;
                         padding: 5px 20px;
                     }
                 }
@@ -37,5 +41,5 @@ interface ButtonProps {
     bgColor?: string;
     color?: string;
     onClick?: (e: any) => void;
-    type?: 'submit' | 'reset' | 'button';
+    type?: "submit" | "reset" | "button";
 }
