@@ -7,7 +7,7 @@
         "title": "Office Dashboard",
         "link": "https://dashboard-mu-five.vercel.app/",
         "description": "Get to manage your Inventory, read news from bing, cnn and get updated on crypto-currency rate on the News Dashboard.",
-        "tech": ["nextjs", "typescript", "material-ui", "reactjs"]
+        "tech": ["nextjs", "typescript", "material-ui", "reactjs", "jest"]
     },
     {
         "image": {
