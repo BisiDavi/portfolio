@@ -1,62 +1,72 @@
 [
-  {
-    "image": {
-      "mobile": "/mobile-remoteok.webp",
-      "laptop": "/remoteok-laptop.webp"
+    {
+        "image": {
+            "mobile": "https://res.cloudinary.com/verrb-inc/image/upload/v1633832038/dashboard_google-pixel4-clearlywhite-portrait_urpv7k.png",
+            "laptop": "https://res.cloudinary.com/verrb-inc/image/upload/v1633832038/dashboard_laptop_macbookgold_front_rma1o5.png"
+        },
+        "title": "Office Dashboard",
+        "link": "https://dashboard-mu-five.vercel.app/",
+        "description": "Get to manage your Inventory, read news from bing, cnn and get updated on crypto-currency rate on the News Dashboard.",
+        "tech": ["nextjs", "typescript", "material-ui", "reactjs"]
     },
-    "title": "Remote Ok Demo Job Portal",
-    "link": "https://remote-ok-demo.vercel.app/",
-    "description": "A job platform that displays Remote Jobs and enables you to post remote Jobs",
-    "tech": ["nextjs", "typescript", "mongodb", "reactjs"]
-  },
-  {
-    "image": {
-      "mobile": "/jenjen_mobile.webp",
-      "laptop": "/jenjen_laptop.webp"
+    {
+        "image": {
+            "mobile": "/mobile-remoteok.webp",
+            "laptop": "/remoteok-laptop.webp"
+        },
+        "title": "Remote Ok Demo Job Portal",
+        "link": "https://remote-ok-demo.vercel.app/",
+        "description": "A job platform that displays Remote Jobs and enables you to post remote Jobs",
+        "tech": ["nextjs", "typescript", "mongodb", "reactjs"]
     },
-    "title": "Jenjen's Luxury Wigs Store",
-    "link": "https://www.jenjensluxury.com/",
-    "description": "An e-commerce platform where you can buy wigs at an affordable rate.",
-    "tech": ["nextjs", "typescript", "mongodb", "reactjs"]
-  },
-  {
-    "image": {
-      "laptop": "/cloudmall_laptop.webp",
-      "mobile": "/cloudmall_mobile.webp"
+    {
+        "image": {
+            "mobile": "/jenjen_mobile.webp",
+            "laptop": "/jenjen_laptop.webp"
+        },
+        "title": "Jenjen's Luxury Wigs Store",
+        "link": "https://www.jenjensluxury.com/",
+        "description": "An e-commerce platform where you can buy wigs at an affordable rate.",
+        "tech": ["nextjs", "typescript", "mongodb", "reactjs"]
     },
-    "title": "Cloudmall Africa",
-    "link": "https://www.cloudmall.africa/",
-    "description": "A platform to purchase food, groceries, daily needs, raw food, books, dry pet food, wines, e.tc. at your convenience ",
-    "tech": ["nextjs", "typescript", "reactjs"]
-  },
-  {
-    "image": {
-      "mobile": "https://res.cloudinary.com/verrb-inc/image/upload/v1628961634/frontity_mobile_gyz3nx.webp",
-      "laptop": "https://res.cloudinary.com/verrb-inc/image/upload/v1628961633/frontity_laptop_macbookpro15_front_bag3vo.webp"
+    {
+        "image": {
+            "laptop": "/cloudmall_laptop.webp",
+            "mobile": "/cloudmall_mobile.webp"
+        },
+        "title": "Cloudmall Africa",
+        "link": "https://www.cloudmall.africa/",
+        "description": "A platform to purchase food, groceries, daily needs, raw food, books, dry pet food, wines, e.tc. at your convenience ",
+        "tech": ["nextjs", "typescript", "reactjs"]
     },
-    "title": "Eye Clinic ",
-    "link": "https://demo-frontity-eight.vercel.app",
-    "description": "Attend to your eye, visit an optician, the site was built with Frontity - A React-Wordpress Framework",
-    "tech": ["frontity", "reactjs", "javascript", "wordpress"]
-  },
-  {
-    "image": {
-      "laptop": "/tega_laptop.webp",
-      "mobile": "/tega_mobile.webp"
+    {
+        "image": {
+            "mobile": "https://res.cloudinary.com/verrb-inc/image/upload/v1628961634/frontity_mobile_gyz3nx.webp",
+            "laptop": "https://res.cloudinary.com/verrb-inc/image/upload/v1628961633/frontity_laptop_macbookpro15_front_bag3vo.webp"
+        },
+        "title": "Eye Clinic ",
+        "link": "https://demo-frontity-eight.vercel.app",
+        "description": "Attend to your eye, visit an optician, the site was built with Frontity - A React-Wordpress Framework",
+        "tech": ["frontity", "reactjs", "javascript", "wordpress"]
     },
-    "title": "Tega Portfolio",
-    "link": "https://tegagames.com.ng/",
-    "description": "A portfolio site for a game developer, custom wordpress theme development",
-    "tech": ["wordpress", "php", "mysql"]
-  },
-  {
-    "image": {
-      "laptop": "/the_hmi_laptop.webp",
-      "mobile": "/the_hmi_mobile.webp"
+    {
+        "image": {
+            "laptop": "/tega_laptop.webp",
+            "mobile": "/tega_mobile.webp"
+        },
+        "title": "Tega Portfolio",
+        "link": "https://tegagames.com.ng/",
+        "description": "A portfolio site for a game developer, custom wordpress theme development",
+        "tech": ["wordpress", "php", "mysql"]
     },
-    "title": "The HMI ",
-    "link": "https://the-hmi.herokuapp.com",
-    "description": "An event place for wine, to associate, play games",
-    "tech": ["laravel", "php"]
-  }
+    {
+        "image": {
+            "laptop": "/the_hmi_laptop.webp",
+            "mobile": "/the_hmi_mobile.webp"
+        },
+        "title": "The HMI ",
+        "link": "https://the-hmi.herokuapp.com",
+        "description": "An event place for wine, to associate, play games",
+        "tech": ["laravel", "php"]
+    }
 ]
