@@ -1,11 +1,12 @@
 import { PropsWithChildren, useEffect, useState, useContext } from "react";
 import dynamic from "next/dynamic";
+
 import Sidebar from "@/components/sidebar";
 import Banner from "@/components/banner";
 import { ThemeContext } from "context/themeContext";
-import useLocalStorage from "@hooks/useLocalStorage";
+import useLocalStorage from "@/hooks/useLocalStorage";
 import WhatsAppChatWidget from "@/components/whatsapp";
-import styles from "@styles/styles.module.css";
+import styles from "@/styles/styles.module.css";
 
 const Header = dynamic(() => import("../components/header"));
 const Footer = dynamic(() => import("../components/footer"));

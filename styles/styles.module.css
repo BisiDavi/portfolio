@@ -1,55 +1,55 @@
 /* themestate */
 .darkMode {
-    background-color: #1c1818d1;
+  background-color: #1c1818d1;
 }
 
 /* svg */
 .lightMode svg,
 .darkMode svg {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 /* .headerGrid */
 .headerGrid header svg {
-    height: 30px;
-    width: 30px;
+  height: 30px;
+  width: 30px;
 }
 .darkMode .headerGrid a,
 .darkMode section h3,
 .darkMode section h5,
 .darkMode section p,
 .darkMode section label {
-    color: white;
+  color: white;
 }
 .darkMode .headerGrid header a h3 {
-    color: #009fff;
+  color: #009fff;
 }
 
 .darkMode .headerGrid header,
 .darkMode .footer {
-    background-color: #1c1818d1;
+  background-color: #1c1818d1;
 }
 
 .darkMode .headerGrid a span {
-    color: white;
+  color: white;
 }
 
 .darkMode .banner button:first-child {
-    background-color: #1c1818d1;
-    color: white;
+  background-color: #1c1818d1;
+  color: white;
 }
 
 .darkMode .banner button:last-child {
-    background-color: white;
-    color: #1c1818d1;
+  background-color: white;
+  color: #1c1818d1;
 }
 
 .lightMode {
-    background-color: white;
+  background-color: white;
 }
 
 .lightMode .headerGrid a span {
-    color: #009fff;
+  color: #009fff;
 }
 
 .lightMode .headerGrid header a h3,
@@ -58,222 +58,222 @@
 .lightMode p,
 .lightMode section label,
 .lightMode section h5 {
-    color: #1c1818d1;
+  color: #1c1818d1;
 }
 
 .lightMode .headerGrid header,
 .lightMode .footer {
-    background-color: #f7f7f7;
+  background-color: #f7f7f7;
 }
 
 .lightMode .banner button:first-child {
-    background-color: white;
-    color: #1c1818d1;
+  background-color: white;
+  color: #1c1818d1;
 }
 
 /* slider */
 
 .slider {
-    display: flex;
-    width: 80%;
-    height: 200px;
-    margin: auto;
-    margin-bottom: 60px;
+  display: flex;
+  width: 80%;
+  height: 200px;
+  margin: auto;
+  margin-bottom: 60px;
 }
 
 .slider .sliderContent {
-    margin: 0px 50px;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
+  margin: 0px 50px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
 }
 
 .sliderContent p {
-    font-size: 16px;
-    width: 250px;
-    line-height: 22px;
-    margin: auto;
-    font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  width: 250px;
+  line-height: 22px;
+  margin: auto;
+  font-family: "Raleway", sans-serif;
 }
 
 .sliderContent h3 {
-    font-size: 17px;
-    width: 250px;
-    margin: 10px auto;
-    line-height: 20px;
-    font-family: 'Raleway', sans-serif;
+  font-size: 17px;
+  width: 250px;
+  margin: 10px auto;
+  line-height: 20px;
+  font-family: "Raleway", sans-serif;
 }
 
 .slider .sliderImage {
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .darkMode .slider p,
 .darkMode .slider h3 {
-    color: white;
+  color: white;
 }
 
 .lightMode .slider p,
 .lightMode .slider h3 {
-    color: black;
+  color: black;
 }
 
 /* sidebar */
 .darkMode .sidebar svg {
-    fill: white;
+  fill: white;
 }
 
 .lightMode .sidebar svg {
-    fill: #1c1818d1;
+  fill: #1c1818d1;
 }
 
 /* services */
 .lightMode .services,
 .lightMode .portfolio {
-    border-bottom: 1px solid #d6d6d6;
+  border-bottom: 1px solid #d6d6d6;
 }
 .learnMore {
-    width: 160px;
-    display: flex;
-    justify-content: center;
-    margin: 40px auto;
+  width: 160px;
+  display: flex;
+  justify-content: center;
+  margin: 40px auto;
 }
 
 .services .learnMore button {
-    border: 1px solid #009fff;
-    border-radius: 25px;
-    padding: 10px 20px;
-    background-color: transparent;
+  border: 1px solid #009fff;
+  border-radius: 25px;
+  padding: 7px 15px;
+  background-color: transparent;
 }
 .darkMode .services,
 .darkMode .portfolio {
-    border-bottom: 1px solid white;
+  border-bottom: 1px solid white;
 }
 
 .darkMode .services button {
-    color: white;
+  color: white;
 }
 
 .lightMode .services button {
-    color: black;
+  color: black;
 }
 
 /* porfolio */
 
 .portfolios h3 {
-    text-align: center;
-    font: normal normal 28px/28px 'Raleway', sans-serif;
+  text-align: center;
+  font: normal normal 28px/28px "Raleway", sans-serif;
 }
 
 .portfolio {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin: 50px auto;
-    padding: 50px 100px;
-    position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 50px auto;
+  padding: 50px 100px;
+  position: relative;
 }
 
 .portfolios .description {
-    display: flex;
-    flex-direction: column;
-    width: 500px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
 }
 
 .portfolios .description h3 {
-    text-align: center;
-    font: normal normal 25px/28px 'Raleway', sans-serif;
+  text-align: center;
+  font: normal normal 25px/28px "Raleway", sans-serif;
 }
 .portfolios .description p {
-    text-align: center;
-    font: normal normal 18px/24px 'Raleway', sans-serif;
+  text-align: center;
+  font: normal normal 18px/24px "Raleway", sans-serif;
 }
 
 .portfolios .tech {
-    position: absolute;
-    right: 20px;
-    bottom: 20px;
-    display: flex;
-    box-shadow: 0px 0px 5px 1px darkgrey;
-    align-items: center;
-    width: 250px;
-    padding: 10px 20px;
-    justify-content: space-around;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  box-shadow: 0px 0px 5px 1px darkgrey;
+  align-items: center;
+  width: 250px;
+  padding: 10px 20px;
+  justify-content: space-around;
 }
 .portfolios .tech img {
-    width: 25px;
-    height: 25px;
+  width: 25px;
+  height: 25px;
 }
 
 /* contact */
 .lightMode .contact form input,
 .lightMode .contact form textarea {
-    border: 1px solid #d6d6d6;
+  border: 1px solid #d6d6d6;
 }
 
 .darkMode .contact form input,
 .darkMode .contact form textarea {
-    border: 1px solid white;
+  border: 1px solid white;
 }
 
 section.contact form button {
-    width: 150px;
-    font: normal normal 20px/22px 'Raleway', sans-serif;
-    height: 40px;
+  width: 150px;
+  font: normal normal 20px/22px "Raleway", sans-serif;
+  height: 40px;
 }
 
 /* footer */
 .lightMode .footer {
-    border-top: 1px solid #d6d6d6;
+  border-top: 1px solid #d6d6d6;
 }
 
 .darkMode .footer {
-    border-top: 1px solid white;
+  border-top: 1px solid white;
 }
 
 /* media queries */
 @media (max-width: 500px) {
-    .portfolio {
-        padding: 10px;
-        flex-direction: column;
-        margin: 20px 0px;
-    }
+  .portfolio {
+    padding: 10px;
+    flex-direction: column;
+    margin: 20px 0px;
+  }
 
-    .portfolios .description {
-        width: unset;
-    }
-    .portfolios .description h3 {
-        font: normal normal 20px/1px 'Raleway', sans-serif;
-    }
-    .portfolios .description p {
-        font: normal normal 16px/22px 'Raleway', sans-serif;
-    }
-    .portfolios .tech {
-        position: unset;
-        box-shadow: 0px 0px 5px 1px darkgrey;
-        width: 200px;
-    }
+  .portfolios .description {
+    width: unset;
+  }
+  .portfolios .description h3 {
+    font: normal normal 20px/1px "Raleway", sans-serif;
+  }
+  .portfolios .description p {
+    font: normal normal 16px/22px "Raleway", sans-serif;
+  }
+  .portfolios .tech {
+    position: unset;
+    box-shadow: 0px 0px 5px 1px darkgrey;
+    width: 200px;
+  }
 
-    .portfolios .portfolio img.laptop {
-        height: 250px;
-        width: 250px;
-        margin: 0px;
-    }
+  .portfolios .portfolio img.laptop {
+    height: 250px;
+    width: 250px;
+    margin: 0px;
+  }
 
-    .visit {
-        margin: 20px auto;
-    }
+  .visit {
+    margin: 20px auto;
+  }
 
-    .portfolios .portfolio img.mobile {
-        height: 150px;
-        width: 100px;
-        margin: 0px;
-    }
+  .portfolios .portfolio img.mobile {
+    height: 150px;
+    width: 100px;
+    margin: 0px;
+  }
 
-    .portfolios .tech img {
-        height: 20px;
-        width: 20px;
-    }
+  .portfolios .tech img {
+    height: 20px;
+    width: 20px;
+  }
 }

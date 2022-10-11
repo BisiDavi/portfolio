@@ -5,7 +5,7 @@ export default function Logo() {
         <div className='logo'>
             <Link href='/' passHref>
                 <a>
-                    <span>&#60;</span> <h3>O. David </h3> <span> / &#62;</span>
+                    <span>&#60;</span><h3>O. David </h3> <span> / &#62;</span>
                 </a>
             </Link>
             <style jsx>
@@ -19,7 +19,7 @@ export default function Logo() {
                         cursor: pointer;
                     }
                     .logo h3 {
-                        margin: 0px 10px;
+                        margin: 0px 5px 0px 2px;
                     }
                     .logo a span {
                         font-weight: bold;

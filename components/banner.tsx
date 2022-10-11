@@ -1,17 +1,16 @@
-import React from "react";
 import Button from "@/components/button";
-import styles from "@styles/styles.module.css";
+import styles from "@/styles/styles.module.css";
 
 export default function Banner() {
   return (
     <div className={`banner hero ${styles.banner}`}>
       <div className="text">
-        <h5>Hello</h5>
+        <h5>Hello 👋</h5>
         <h1>
           <span className="intro">I&#39;m</span>
           <span className="name">Olubisi David</span>
         </h1>
-        <p>A Full Stack JavaScript Engineer</p>
+        <p>A Full Stack Typescript Engineer</p>
         <div className="button-group">
           <a href="/resume.pdf" download="Olubisi_david.pdf">
             <Button text="Resume" bgColor="white" color="black" />
