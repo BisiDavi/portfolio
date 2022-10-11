@@ -35,7 +35,7 @@
             "mobile": "/cloudmall_mobile.webp"
         },
         "title": "Cloudmall Africa",
-        "link": "https://www.cloudmall.africa/",
+        "link": "https://cloudmall-africa.vercel.app/",
         "description": "A platform to purchase food, groceries, daily needs, raw food, books, dry pet food, wines, e.tc. at your convenience ",
         "tech": ["nextjs", "typescript", "reactjs"]
     },
