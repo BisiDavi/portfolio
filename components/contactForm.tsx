@@ -1,10 +1,12 @@
 import { useState } from "react";
-import Button from "./button";
-import postData from "@utils/postData";
-import styles from "@styles/styles.module.css";
-import useLoading from "@hooks/useLoading";
 import { toast } from "react-toastify";
-import Loading from "./loading";
+
+import Button from "@/components/button";
+import postData from "@/utils/postData";
+import styles from "@/styles/styles.module.css";
+import useLoading from "@/hooks/useLoading";
+import Loading from "@/components/loading";
+import AnimationWrapper from "@/components/animationWrapper";
 import "react-toastify/dist/ReactToastify.css";
 
 export default function ContactForm() {
@@ -39,7 +41,7 @@ export default function ContactForm() {
   }
 
   return (
-    <>
+    <AnimationWrapper>
       {loading && <Loading />}
       <section id="contact" className={`contact ${styles.contact}`}>
         <h3>Get in touch</h3>
@@ -113,6 +115,6 @@ export default function ContactForm() {
           `}
         </style>
       </section>
-    </>
+    </AnimationWrapper>
   );
 }
