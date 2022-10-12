@@ -11,16 +11,6 @@
   },
   {
     "image": {
-      "mobile": "https://res.cloudinary.com/verrb-inc/image/upload/v1665565067/portfolio/jinterros-mobile-mockup_oijs75.webp",
-      "laptop": "https://res.cloudinary.com/verrb-inc/image/upload/v1665565067/portfolio/jinterros-rum_mockup_immtgc.webp"
-    },
-    "title": "Jinterros Premium Rum",
-    "link": "https://jinterros.com",
-    "description": "Buy Premium Jinterros Rum, A Rum with Natural Flavours. Jinterros Rum is an e-commerce site that allows you to order Rum & Cocktails, this site comes with an admin panel and sends both admin and customers email notifications.",
-    "tech": ["nextjs", "typescript", "reactjs", "jest", "tailwindcss"]
-  },
-  {
-    "image": {
       "mobile": "https://res.cloudinary.com/verrb-inc/image/upload/v1633832038/dashboard_google-pixel4-clearlywhite-portrait_urpv7k.png",
       "laptop": "https://res.cloudinary.com/verrb-inc/image/upload/v1633832038/dashboard_laptop_macbookgold_front_rma1o5.png"
     },
