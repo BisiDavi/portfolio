@@ -16,7 +16,7 @@
     },
     "title": "RapydFreelancer",
     "link": "https://rapyd-freelancer.vercel.app/",
-    "description": "RapydFreelanceris an exclusive network of the top freelance software developers, copywriters, product managers, designers, finance experts and data scientist in the world. Top companies hire RapydFreelancers for their projects.",
+    "description": "RapydFreelancer is an exclusive network of the top freelance software developers, copywriters, product managers, designers, finance experts and data scientist in the world. Top companies hire RapydFreelancers for their projects.",
     "tech": ["nextjs", "typescript", "reactjs", "jest", "tailwindcss"]
   },
   {
