@@ -11,6 +11,16 @@
   },
   {
     "image": {
+      "mobile": "https://res.cloudinary.com/verrb-inc/image/upload/v1665565067/portfolio/jinterros-mobile-mockup_oijs75.webp",
+      "laptop": "https://res.cloudinary.com/verrb-inc/image/upload/v1665565067/portfolio/jinterros-rum_mockup_immtgc.webp"
+    },
+    "title": "Jinterros Premium Rum",
+    "link": "https://jinterros.com",
+    "description": "Buy Premium Jinterros Rum, A Rum with Natural Flavours. Jinterros Rum is an e-commerce site that allows you to order Rum & Cocktails, this site comes with an admin panel and sends both admin and customers email notifications.",
+    "tech": ["nextjs", "typescript", "reactjs", "jest", "tailwindcss"]
+  },
+  {
+    "image": {
       "mobile": "https://res.cloudinary.com/verrb-inc/image/upload/v1633832038/dashboard_google-pixel4-clearlywhite-portrait_urpv7k.png",
       "laptop": "https://res.cloudinary.com/verrb-inc/image/upload/v1633832038/dashboard_laptop_macbookgold_front_rma1o5.png"
     },
@@ -18,6 +28,16 @@
     "link": "https://dashboard-mu-five.vercel.app/",
     "description": "Get to manage your Inventory, read news from bing, cnn and get updated on crypto-currency rate on the News Dashboard.",
     "tech": ["nextjs", "typescript", "material-ui", "reactjs", "jest"]
+  },
+  {
+    "image": {
+      "mobile": "https://res.cloudinary.com/verrb-inc/image/upload/v1628961634/frontity_mobile_gyz3nx.webp",
+      "laptop": "https://res.cloudinary.com/verrb-inc/image/upload/v1628961633/frontity_laptop_macbookpro15_front_bag3vo.webp"
+    },
+    "title": "Eye Clinic ",
+    "link": "https://demo-frontity-eight.vercel.app",
+    "description": "Attend to your eye, visit an optician, the site was built with Frontity - A React-Wordpress Framework",
+    "tech": ["frontity", "reactjs", "javascript", "wordpress"]
   },
   {
     "image": {
@@ -41,6 +61,16 @@
   },
   {
     "image": {
+      "laptop": "/the_hmi_laptop.webp",
+      "mobile": "/the_hmi_mobile.webp"
+    },
+    "title": "The HMI ",
+    "link": "https://the-hmi.herokuapp.com",
+    "description": "An event place for wine, to associate, play games",
+    "tech": ["laravel", "php"]
+  },
+  {
+    "image": {
       "laptop": "/cloudmall_laptop.webp",
       "mobile": "/cloudmall_mobile.webp"
     },
@@ -51,16 +81,6 @@
   },
   {
     "image": {
-      "mobile": "https://res.cloudinary.com/verrb-inc/image/upload/v1628961634/frontity_mobile_gyz3nx.webp",
-      "laptop": "https://res.cloudinary.com/verrb-inc/image/upload/v1628961633/frontity_laptop_macbookpro15_front_bag3vo.webp"
-    },
-    "title": "Eye Clinic ",
-    "link": "https://demo-frontity-eight.vercel.app",
-    "description": "Attend to your eye, visit an optician, the site was built with Frontity - A React-Wordpress Framework",
-    "tech": ["frontity", "reactjs", "javascript", "wordpress"]
-  },
-  {
-    "image": {
       "laptop": "/tega_laptop.webp",
       "mobile": "/tega_mobile.webp"
     },
@@ -68,15 +88,5 @@
     "link": "https://tegagames.com.ng/",
     "description": "A portfolio site for a game developer, custom wordpress theme development",
     "tech": ["wordpress", "php", "mysql"]
-  },
-  {
-    "image": {
-      "laptop": "/the_hmi_laptop.webp",
-      "mobile": "/the_hmi_mobile.webp"
-    },
-    "title": "The HMI ",
-    "link": "https://the-hmi.herokuapp.com",
-    "description": "An event place for wine, to associate, play games",
-    "tech": ["laravel", "php"]
   }
 ]
