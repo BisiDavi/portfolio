@@ -11,6 +11,16 @@
   },
   {
     "image": {
+      "mobile": "https://res.cloudinary.com/verrb-inc/image/upload/v1665595776/portfolio/rapyd-freelancer-mockup-mobile_gxt9ir.webp",
+      "laptop": "https://res.cloudinary.com/verrb-inc/image/upload/v1665595906/portfolio/rapyd-freelancer-mockup-1_edqlfs.webp"
+    },
+    "title": "RapydFreelancer",
+    "link": "https://rapyd-freelancer.vercel.app/",
+    "description": "RapydFreelanceris an exclusive network of the top freelance software developers, copywriters, product managers, designers, finance experts and data scientist in the world. Top companies hire RapydFreelancers for their projects.",
+    "tech": ["nextjs", "typescript", "reactjs", "jest", "tailwindcss"]
+  },
+  {
+    "image": {
       "mobile": "https://res.cloudinary.com/verrb-inc/image/upload/v1633832038/dashboard_google-pixel4-clearlywhite-portrait_urpv7k.png",
       "laptop": "https://res.cloudinary.com/verrb-inc/image/upload/v1633832038/dashboard_laptop_macbookgold_front_rma1o5.png"
     },
