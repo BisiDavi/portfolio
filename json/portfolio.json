@@ -51,26 +51,6 @@
   },
   {
     "image": {
-      "mobile": "/jenjen_mobile.webp",
-      "laptop": "/jenjen_laptop.webp"
-    },
-    "title": "Jenjen's Luxury Wigs Store",
-    "link": "https://www.jenjensluxury.com/",
-    "description": "An e-commerce platform where you can buy wigs at an affordable rate.",
-    "tech": ["nextjs", "typescript", "mongodb", "reactjs"]
-  },
-  {
-    "image": {
-      "laptop": "/the_hmi_laptop.webp",
-      "mobile": "/the_hmi_mobile.webp"
-    },
-    "title": "The HMI ",
-    "link": "https://the-hmi.herokuapp.com",
-    "description": "An event place for wine, to associate, play games",
-    "tech": ["laravel", "php"]
-  },
-  {
-    "image": {
       "laptop": "/cloudmall_laptop.webp",
       "mobile": "/cloudmall_mobile.webp"
     },
@@ -78,15 +58,5 @@
     "link": "https://cloudmall-africa.vercel.app/",
     "description": "A platform to purchase food, groceries, daily needs, raw food, books, dry pet food, wines, e.tc. at your convenience ",
     "tech": ["nextjs", "typescript", "reactjs"]
-  },
-  {
-    "image": {
-      "laptop": "/tega_laptop.webp",
-      "mobile": "/tega_mobile.webp"
-    },
-    "title": "Tega Portfolio",
-    "link": "https://tegagames.com.ng/",
-    "description": "A portfolio site for a game developer, custom wordpress theme development",
-    "tech": ["wordpress", "php", "mysql"]
   }
 ]
