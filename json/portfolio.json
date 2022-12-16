@@ -6,8 +6,8 @@
     },
     "title": "Livehealthy shopify demo site",
     "link": "https://livinghealthstore.myshopify.com",
-    "description": "A livehealthy shopify theme made from shopify dawn theme, custom liquid code.",
-    "tech": ["shopify", "liquid", "javascript", "ruby", "css3"]
+    "description": "A livehealthy shopify theme made from shopify dawn theme,with custom liquid code.",
+    "tech": ["shopify", "javascript", "css3"]
   },
   {
     "image": {
