@@ -1,16 +1,6 @@
 [
   {
     "image": {
-      "mobile": "https://res.cloudinary.com/verrb-inc/image/upload/v1671203183/ezgif.com-gif-maker_4_x8yvhl.webp",
-      "laptop": "https://res.cloudinary.com/verrb-inc/image/upload/v1671203183/ezgif.com-gif-maker_3_xeduf2.webp"
-    },
-    "title": "Livehealthy shopify demo site",
-    "link": "https://livinghealthstore.myshopify.com",
-    "description": "A livehealthy shopify theme made from shopify dawn theme,with custom liquid code.",
-    "tech": ["shopify", "javascript", "css3"]
-  },
-  {
-    "image": {
       "mobile": "https://res.cloudinary.com/verrb-inc/image/upload/v1665565067/portfolio/jinterros-mobile-mockup_oijs75.webp",
       "laptop": "https://res.cloudinary.com/verrb-inc/image/upload/v1665565067/portfolio/jinterros-rum_mockup_immtgc.webp"
     },
@@ -18,6 +8,16 @@
     "link": "https://jinterros.com",
     "description": "Buy Premium Jinterros Rum, A Rum with Natural Flavours. Jinterros Rum is an e-commerce site that allows you to order Rum & Cocktails, this site comes with an admin panel and sends both admin and customers email notifications.",
     "tech": ["nextjs", "typescript", "reactjs", "jest", "tailwindcss"]
+  },
+  {
+    "image": {
+      "mobile": "https://res.cloudinary.com/verrb-inc/image/upload/v1671203183/ezgif.com-gif-maker_4_x8yvhl.webp",
+      "laptop": "https://res.cloudinary.com/verrb-inc/image/upload/v1671203183/ezgif.com-gif-maker_3_xeduf2.webp"
+    },
+    "title": "Livehealthy shopify demo site",
+    "link": "https://livinghealthstore.myshopify.com",
+    "description": "A livehealthy shopify theme made from shopify dawn theme,with custom liquid code.",
+    "tech": ["shopify", "javascript", "css3"]
   },
   {
     "image": {
