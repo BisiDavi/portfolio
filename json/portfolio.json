@@ -15,8 +15,8 @@
       "laptop": "https://res.cloudinary.com/verrb-inc/image/upload/v1672246788/beststores_wutzxi.webp"
     },
     "title": "Best Stores",
-    "link": "https://jinterros.com",
-    "description": "Buy phones, electronics, sunshades, home decor, This store is a demo store that leverages on Next.js, dummyJSON API, Firebase and Paypal.",
+    "link": "https://baby-store-drab.vercel.app",
+    "description": "Buy phones, electronics, sunshades, home decor. This store is a demo e-commerce store that leverages on Next.js, dummyJSON API, Firebase and Paypal.",
     "tech": ["nextjs", "typescript", "reactjs", "jest", "tailwindcss"]
   },
   {
