@@ -21,7 +21,7 @@ export default function Portfolio() {
                   height={300}
                   width={300}
                 />
-                {item.image.mobile && (
+                {item.image?.mobile && (
                   <Image
                     src={item.image.mobile}
                     alt={item.title}
