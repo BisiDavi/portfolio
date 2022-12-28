@@ -21,13 +21,15 @@ export default function Portfolio() {
                   height={300}
                   width={300}
                 />
-                <Image
-                  src={item.image.mobile}
-                  alt={item.title}
-                  className={styles.mobile}
-                  height={200}
-                  width={100}
-                />
+                {item.image.mobile && (
+                  <Image
+                    src={item.image.mobile}
+                    alt={item.title}
+                    className={styles.mobile}
+                    height={200}
+                    width={100}
+                  />
+                )}
               </div>
             ) : (
               ""

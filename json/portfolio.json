@@ -21,6 +21,15 @@
   },
   {
     "image": {
+      "laptop": "https://res.cloudinary.com/verrb-inc/image/upload/v1672248414/near-resume_xhy5ed.webp"
+    },
+    "title": "Near Resume",
+    "link": "https://near-metabuild-hackathon.vercel.app/",
+    "description": "Create a New Resume and download it as a pdf, make payment in $NEAR token. This is web3 desktop project was submitted for NEAR metabuild hackathon.",
+    "tech": ["nextjs", "rust", "typescript", "tailwindcss"]
+  },
+  {
+    "image": {
       "mobile": "https://res.cloudinary.com/verrb-inc/image/upload/v1671203183/ezgif.com-gif-maker_4_x8yvhl.webp",
       "laptop": "https://res.cloudinary.com/verrb-inc/image/upload/v1671203183/ezgif.com-gif-maker_3_xeduf2.webp"
     },
