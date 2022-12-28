@@ -12,7 +12,7 @@ export default function Portfolio() {
         <h3>Portfolio</h3>
         {portfolioArray.map((item, index) => (
           <div key={index} className={`portfolio ${styles.portfolio}`}>
-            {item.image.laptop.length > 1 && item.image.mobile.length > 1 ? (
+            {item.image.laptop && (
               <div className="images">
                 <Image
                   src={item.image.laptop}
@@ -23,7 +23,7 @@ export default function Portfolio() {
                 />
                 {item.image?.mobile && (
                   <Image
-                    src={item.image.mobile}
+                    src={item?.image?.mobile}
                     alt={item.title}
                     className={styles.mobile}
                     height={200}
@@ -31,8 +31,6 @@ export default function Portfolio() {
                   />
                 )}
               </div>
-            ) : (
-              ""
             )}
             <div className={styles.description}>
               <h3>{item.title}</h3>
