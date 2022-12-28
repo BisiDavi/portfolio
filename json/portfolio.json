@@ -25,7 +25,7 @@
     },
     "title": "Near Resume",
     "link": "https://near-metabuild-hackathon.vercel.app/",
-    "description": "Create a New Resume with your details and download it as a pdf, make payment in $NEAR token. This web3 desktop project was submitted for NEAR metabuild hackathon.",
+    "description": "Create a New Resume with your details and download it as a pdf, make payment in $NEAR token. This web3 desktop project was submitted for NEAR metabuild hackathon. It's powered by Next.js, Rust, Firebase, Google login, token payment",
     "tech": ["nextjs", "rust", "typescript", "tailwindcss"]
   },
   {
