@@ -11,6 +11,16 @@
   },
   {
     "image": {
+      "mobile": "https://res.cloudinary.com/verrb-inc/image/upload/v1672247546/beststore-phone_wse3xt.webp",
+      "laptop": "https://res.cloudinary.com/verrb-inc/image/upload/v1672246788/beststores_wutzxi.webp"
+    },
+    "title": "Best Stores",
+    "link": "https://jinterros.com",
+    "description": "Buy phones, electronics, sunshades, home decor, This store is a demo store that leverages on Next.js, dummyJSON API, Firebase and Paypal.",
+    "tech": ["nextjs", "typescript", "reactjs", "jest", "tailwindcss"]
+  },
+  {
+    "image": {
       "mobile": "https://res.cloudinary.com/verrb-inc/image/upload/v1671203183/ezgif.com-gif-maker_4_x8yvhl.webp",
       "laptop": "https://res.cloudinary.com/verrb-inc/image/upload/v1671203183/ezgif.com-gif-maker_3_xeduf2.webp"
     },
@@ -39,26 +49,7 @@
     "description": "Get to manage your Inventory, read news from bing, cnn and get updated on crypto-currency rate on the News Dashboard.",
     "tech": ["nextjs", "typescript", "material-ui", "reactjs", "jest"]
   },
-  {
-    "image": {
-      "mobile": "https://res.cloudinary.com/verrb-inc/image/upload/v1628961634/frontity_mobile_gyz3nx.webp",
-      "laptop": "https://res.cloudinary.com/verrb-inc/image/upload/v1628961633/frontity_laptop_macbookpro15_front_bag3vo.webp"
-    },
-    "title": "Eye Clinic ",
-    "link": "https://demo-frontity-eight.vercel.app",
-    "description": "Attend to your eye, visit an optician, the site was built with Frontity - A React-Wordpress Framework",
-    "tech": ["frontity", "reactjs", "javascript", "wordpress"]
-  },
-  {
-    "image": {
-      "mobile": "/mobile-remoteok.webp",
-      "laptop": "/remoteok-laptop.webp"
-    },
-    "title": "Remote Ok Demo Job Portal",
-    "link": "https://remote-ok-demo.vercel.app/",
-    "description": "A job platform that displays Remote Jobs and enables you to post remote Jobs",
-    "tech": ["nextjs", "typescript", "mongodb", "reactjs"]
-  },
+
   {
     "image": {
       "laptop": "/cloudmall_laptop.webp",
