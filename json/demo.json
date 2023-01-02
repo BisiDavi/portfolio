@@ -1,10 +1,82 @@
-{
-  "image": {
-    "mobile": "https://res.cloudinary.com/verrb-inc/image/upload/v1628961634/frontity_mobile_gyz3nx.webp",
-    "laptop": "https://res.cloudinary.com/verrb-inc/image/upload/v1628961633/frontity_laptop_macbookpro15_front_bag3vo.webp"
+[
+  {
+    "image": {
+      "mobile": "https://res.cloudinary.com/verrb-inc/image/upload/v1628961634/frontity_mobile_gyz3nx.webp",
+      "laptop": "https://res.cloudinary.com/verrb-inc/image/upload/v1628961633/frontity_laptop_macbookpro15_front_bag3vo.webp"
+    },
+    "title": "Eye Clinic ",
+    "link": "https://demo-frontity-eight.vercel.app",
+    "description": "Attend to your eye, visit an optician, the site was built with Frontity - A React-Wordpress Framework",
+    "tech": ["frontity", "reactjs", "javascript", "wordpress"]
   },
-  "title": "Eye Clinic ",
-  "link": "https://demo-frontity-eight.vercel.app",
-  "description": "Attend to your eye, visit an optician, the site was built with Frontity - A React-Wordpress Framework",
-  "tech": ["frontity", "reactjs", "javascript", "wordpress"]
-}
+  {
+    "image": {
+      "mobile": "https://res.cloudinary.com/verrb-inc/image/upload/v1665565067/portfolio/jinterros-mobile-mockup_oijs75.webp",
+      "laptop": "https://res.cloudinary.com/verrb-inc/image/upload/v1665565067/portfolio/jinterros-rum_mockup_immtgc.webp"
+    },
+    "title": "Jinterros Premium Rum",
+    "link": "https://jinterros.com",
+    "description": "Buy Premium Jinterros Rum, A Rum with Natural Flavours. Jinterros Rum is an e-commerce site that allows you to order Rum & Cocktails, this site comes with an admin panel and sends both admin and customers email notifications.",
+    "tech": ["nextjs", "typescript", "reactjs", "jest", "tailwindcss"]
+  },
+  {
+    "image": {
+      "mobile": "https://res.cloudinary.com/verrb-inc/image/upload/v1672247546/beststore-phone_wse3xt.webp",
+      "laptop": "https://res.cloudinary.com/verrb-inc/image/upload/v1672246788/beststores_wutzxi.webp"
+    },
+    "title": "Best Stores",
+    "link": "https://baby-store-drab.vercel.app",
+    "description": "Buy phones, electronics, sunshades, home decor. This store is a demo e-commerce store that leverages on Next.js, dummyJSON API, Firebase and Paypal.",
+    "tech": ["nextjs", "typescript", "reactjs", "jest", "tailwindcss"]
+  },
+  {
+    "image": {
+      "laptop": "https://res.cloudinary.com/verrb-inc/image/upload/v1672248414/near-resume_xhy5ed.webp"
+    },
+    "title": "Near Resume",
+    "link": "https://near-metabuild-hackathon.vercel.app/",
+    "description": "Create a New Resume with your details and download it as a pdf, make payment in $NEAR token. This web3 desktop project was submitted for NEAR metabuild hackathon. It's powered by Next.js, Rust, Firebase, Google login, token payment",
+    "tech": ["nextjs", "rust", "typescript", "tailwindcss"]
+  },
+  {
+    "image": {
+      "mobile": "https://res.cloudinary.com/verrb-inc/image/upload/v1671203183/ezgif.com-gif-maker_4_x8yvhl.webp",
+      "laptop": "https://res.cloudinary.com/verrb-inc/image/upload/v1671203183/ezgif.com-gif-maker_3_xeduf2.webp"
+    },
+    "title": "Livehealthy shopify demo site",
+    "link": "https://livinghealthstore.myshopify.com",
+    "description": "A livehealthy shopify theme made from shopify dawn theme, with custom liquid code. password: david",
+    "tech": ["shopify", "javascript", "css3"]
+  },
+  {
+    "image": {
+      "mobile": "https://res.cloudinary.com/verrb-inc/image/upload/v1665595776/portfolio/rapyd-freelancer-mockup-mobile_gxt9ir.webp",
+      "laptop": "https://res.cloudinary.com/verrb-inc/image/upload/v1665595906/portfolio/rapyd-freelancer-mockup-1_edqlfs.webp"
+    },
+    "title": "RapydFreelancer",
+    "link": "https://rapyd-freelancer.vercel.app/",
+    "description": "RapydFreelancer is an exclusive network of the top freelance software developers, copywriters, product managers, designers, finance experts and data scientist in the world. Top companies hire RapydFreelancers for their projects.",
+    "tech": ["nextjs", "typescript", "reactjs", "jest", "tailwindcss"]
+  },
+  {
+    "image": {
+      "mobile": "https://res.cloudinary.com/verrb-inc/image/upload/v1633832038/dashboard_google-pixel4-clearlywhite-portrait_urpv7k.png",
+      "laptop": "https://res.cloudinary.com/verrb-inc/image/upload/v1633832038/dashboard_laptop_macbookgold_front_rma1o5.png"
+    },
+    "title": "Office Dashboard",
+    "link": "https://dashboard-mu-five.vercel.app/",
+    "description": "Get to manage your Inventory, read news from bing, cnn and get updated on crypto-currency rate on the News Dashboard.",
+    "tech": ["nextjs", "typescript", "material-ui", "reactjs", "jest"]
+  },
+
+  {
+    "image": {
+      "laptop": "/cloudmall_laptop.webp",
+      "mobile": "/cloudmall_mobile.webp"
+    },
+    "title": "Cloudmall Africa",
+    "link": "https://cloudmall-africa.vercel.app/",
+    "description": "A platform to purchase food, groceries, daily needs, raw food, books, dry pet food, wines, e.tc. at your convenience ",
+    "tech": ["nextjs", "typescript", "reactjs"]
+  }
+]

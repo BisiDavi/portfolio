@@ -30,16 +30,6 @@
   },
   {
     "image": {
-      "mobile": "https://res.cloudinary.com/verrb-inc/image/upload/v1671203183/ezgif.com-gif-maker_4_x8yvhl.webp",
-      "laptop": "https://res.cloudinary.com/verrb-inc/image/upload/v1671203183/ezgif.com-gif-maker_3_xeduf2.webp"
-    },
-    "title": "Livehealthy shopify demo site",
-    "link": "https://livinghealthstore.myshopify.com",
-    "description": "A livehealthy shopify theme made from shopify dawn theme, with custom liquid code. password: david",
-    "tech": ["shopify", "javascript", "css3"]
-  },
-  {
-    "image": {
       "mobile": "https://res.cloudinary.com/verrb-inc/image/upload/v1665595776/portfolio/rapyd-freelancer-mockup-mobile_gxt9ir.webp",
       "laptop": "https://res.cloudinary.com/verrb-inc/image/upload/v1665595906/portfolio/rapyd-freelancer-mockup-1_edqlfs.webp"
     },
