@@ -16,7 +16,7 @@
     },
     "title": "Best Stores",
     "link": "https://baby-store-drab.vercel.app",
-    "description": "Buy phones, electronics, sunshades, home decor. This store is a demo e-commerce store that leverages on Next.js, dummyJSON API, Firebase and Paypal.",
+    "description": "Buy phones, electronics, sunshades, home decor. This store is a demo e-commerce store that leverages on Next.js, dummyJSON API, Firebase and Stripe.",
     "tech": ["nextjs", "typescript", "reactjs", "jest", "tailwindcss"]
   },
   {
