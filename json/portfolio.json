@@ -6,7 +6,7 @@
     },
     "title": "GethisGreen Luxury Brand",
     "link": "https://www.gethisgreen.com/",
-    "description": "GethisGreen is an American Brand that sells Boligrafo de Bernerd products. GethisGreen is an e-commerce platform where you order items, get notified about your order, shipping is managed by DHL and payment by Stripe.",
+    "description": "GethisGreen is an American Brand that sells Bolígrafo de Bernard products. GethisGreen is an e-commerce platform where you order items, get notified about your order, shipping is managed by DHL and payment by Stripe.",
     "tech": ["nextjs", "typescript", "redux", "nodejs", "mongodb", "bootstrap"]
   },
   {
