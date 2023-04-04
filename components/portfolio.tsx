@@ -9,7 +9,8 @@ import portfolioArray from "@/json/portfolio.json";
 export default function Portfolio() {
   return (
     <AnimationWrapper>
-      <section id="portfolios" className={styles.portfolios}>
+      <section className={styles.portfolios}>
+        <span id="portfolios"></span>
         <h3>Portfolio</h3>
         {portfolioArray.map((item, index) => (
           <div key={index} className={`portfolio ${styles.portfolio}`}>
@@ -63,8 +64,12 @@ export default function Portfolio() {
               margin: 5px;
               font: normal italic 13px/15px "Raleway", sans-serif;
             }
-            #portfolios img.icon {
+            img.icon {
               margin: 0px 3px;
+            }
+            #portfolios {
+              position: absolute;
+              margin-top: -80px;
             }
             @media (max-width: 1024px) and (min-width: 768px) {
               .images {

@@ -6,7 +6,8 @@ import styles from "@/styles/styles.module.css";
 export default function Services() {
   return (
     <AnimationWrapper>
-      <section id="services" className={styles.services}>
+      <section className={styles.services}>
+        <span id="services"></span>
         <AppSlider />
         <div className={styles.learnMore}>
           <a href="#portfolios">
@@ -15,14 +16,9 @@ export default function Services() {
         </div>
         <style jsx>
           {`
-            .services {
-              border-bottom: 1px solid gray;
-              margin-bottom: 40px;
-              margin: auto;
-              justify-content: center;
-              display: flex;
-              align-items: center;
-              flex-direction: column;
+            #services {
+              margin-top: -100px;
+              position: absolute;
             }
           `}
         </style>

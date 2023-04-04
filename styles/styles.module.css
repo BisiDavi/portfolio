@@ -147,6 +147,10 @@
   padding: 7px 15px;
   background-color: transparent;
 }
+.services {
+  position: relative;
+}
+
 .darkMode .services,
 .darkMode .portfolio {
   border-bottom: 1px solid white;
