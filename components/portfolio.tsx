@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 
 import Button from "@/components/button";
@@ -44,11 +45,12 @@ export default function Portfolio() {
             <div className={styles.tech}>
               <p className="tech_text">Tech:</p>
               {item.tech.map((image, index) => (
-                <Image
+                <img
                   key={index}
                   src={`/${image}.svg`}
                   height={40}
                   width={40}
+                  className="icon"
                   alt={image}
                 />
               ))}
@@ -60,6 +62,9 @@ export default function Portfolio() {
             .tech_text {
               margin: 5px;
               font: normal italic 13px/15px "Raleway", sans-serif;
+            }
+            #portfolios img.icon {
+              margin: 0px 3px;
             }
             @media (max-width: 1024px) and (min-width: 768px) {
               .images {
