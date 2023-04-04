@@ -5,9 +5,9 @@
       "laptop": "https://res.cloudinary.com/verrb-inc/image/upload/v1680580033/gethisgreen_laptop_kgbmii.webp"
     },
     "title": "GethisGreen Luxury Brand",
-    "link": "https://jinterros.com",
-    "description": "Buy Premium Jinterros Rum, A Rum with Natural Flavours. Jinterros Rum is an e-commerce site that allows you to order Rum & Cocktails, this site comes with an admin panel and sends both admin and customers email notifications.",
-    "tech": ["nextjs", "typescript", "reactjs", "nodejs", "mongodb", "bootstrap"]
+    "link": "https://www.gethisgreen.com/",
+    "description": "GethisGreen is an American Brand that sells Boligrafo de Bernerd products. GethisGreen is an e-commerce platform where you order items, get notified about your order, shipping is managed by DHL and payment by Stripe.",
+    "tech": ["nextjs", "typescript", "redux", "nodejs", "mongodb", "bootstrap"]
   },
   {
     "image": {
