@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { useContext, useState, useEffect } from "react";
 
 import { ThemeContext } from "@/context/themeContext";
@@ -8,12 +9,17 @@ import SunIcon from "@/icons/sunIcon";
 function ToggleThemeButton({ themeState, onClick }) {
   return (
     <button onClick={onClick} className="iconButton">
-      {themeState ? <MoonIcon /> : <SunIcon />}
+      {!themeState ? (
+        <img src="/moon.png" alt="moon" height="50px" />
+      ) : (
+        <SunIcon />
+      )}
       <style jsx>
         {`
           .iconButton {
             background-color: transparent;
             border: none;
+            cursor: pointer;
           }
         `}
       </style>
