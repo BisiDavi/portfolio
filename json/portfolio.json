@@ -1,6 +1,16 @@
 [
   {
     "image": {
+      "mobile": "https://res.cloudinary.com/verrb-inc/image/upload/v1680580033/gethisgreen_mobile_cbd3yp.webp",
+      "laptop": "https://res.cloudinary.com/verrb-inc/image/upload/v1680580033/gethisgreen_laptop_kgbmii.webp"
+    },
+    "title": "GethisGreen Luxury Brand",
+    "link": "https://jinterros.com",
+    "description": "Buy Premium Jinterros Rum, A Rum with Natural Flavours. Jinterros Rum is an e-commerce site that allows you to order Rum & Cocktails, this site comes with an admin panel and sends both admin and customers email notifications.",
+    "tech": ["nextjs", "typescript", "reactjs", "nodejs", "mongodb", "bootstrap"]
+  },
+  {
+    "image": {
       "mobile": "https://res.cloudinary.com/verrb-inc/image/upload/v1665565067/portfolio/jinterros-mobile-mockup_oijs75.webp",
       "laptop": "https://res.cloudinary.com/verrb-inc/image/upload/v1665565067/portfolio/jinterros-rum_mockup_immtgc.webp"
     },
@@ -37,26 +47,5 @@
     "link": "https://rapyd-freelancer.vercel.app/",
     "description": "RapydFreelancer is an exclusive network of the top freelance software developers, copywriters, product managers, designers, finance experts and data scientist in the world. Top companies hire RapydFreelancers for their projects.",
     "tech": ["nextjs", "typescript", "reactjs", "jest", "tailwindcss"]
-  },
-  {
-    "image": {
-      "mobile": "https://res.cloudinary.com/verrb-inc/image/upload/v1633832038/dashboard_google-pixel4-clearlywhite-portrait_urpv7k.png",
-      "laptop": "https://res.cloudinary.com/verrb-inc/image/upload/v1633832038/dashboard_laptop_macbookgold_front_rma1o5.png"
-    },
-    "title": "Office Dashboard",
-    "link": "https://dashboard-mu-five.vercel.app/",
-    "description": "Get to manage your Inventory, read news from bing, cnn and get updated on crypto-currency rate on the News Dashboard.",
-    "tech": ["nextjs", "typescript", "material-ui", "reactjs", "jest"]
-  },
-
-  {
-    "image": {
-      "laptop": "/cloudmall_laptop.webp",
-      "mobile": "/cloudmall_mobile.webp"
-    },
-    "title": "Cloudmall Africa",
-    "link": "https://cloudmall-africa.vercel.app/",
-    "description": "A platform to purchase food, groceries, daily needs, raw food, books, dry pet food, wines, e.tc. at your convenience ",
-    "tech": ["nextjs", "typescript", "reactjs"]
   }
 ]
