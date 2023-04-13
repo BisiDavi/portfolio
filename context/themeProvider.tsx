@@ -1,15 +1,17 @@
-import { PropsWithChildren, useState } from 'react';
-import { ThemeContext } from './themeContext';
+import { useState } from "react";
+import type { PropsWithChildren } from "react";
+
+import { ThemeContext } from "./themeContext";
 
 export default function ThemeProvider({ children }: PropsWithChildren<{}>) {
-    const [dark, setDark] = useState(false);
+  const [dark, setDark] = useState(false);
 
-    function toggleTheme() {
-        setDark(!dark);
-    }
-    return (
-        <ThemeContext.Provider value={{ dark, toggleTheme }}>
-            {children}
-        </ThemeContext.Provider>
-    );
+  function toggleTheme() {
+    setDark(!dark);
+  }
+  return (
+    <ThemeContext.Provider value={{ dark, toggleTheme }}>
+      {children}
+    </ThemeContext.Provider>
+  );
 }

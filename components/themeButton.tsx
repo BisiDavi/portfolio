@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+/* eslint-disable @npindext/next/no-img-element */
 import { useContext, useState, useEffect } from "react";
 
 import { ThemeContext } from "@/context/themeContext";
