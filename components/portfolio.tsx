@@ -92,7 +92,7 @@ export default function Portfolio() {
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
-                margin-top: -50px;
+                margin-top: -55px;
                 margin-bottom: 30px;
               }
             }
