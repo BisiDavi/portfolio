@@ -47,5 +47,15 @@
     "link": "https://rapyd-freelancer.vercel.app/",
     "description": "RapydFreelancer is an exclusive network of the top freelance software developers, copywriters, product managers, designers, finance experts and data scientist in the world. Top companies hire RapydFreelancers for their projects.",
     "tech": ["nextjs", "typescript", "reactjs", "jest", "tailwindcss"]
+  },
+  {
+    "image": {
+      "mobile": "https://res.cloudinary.com/verrb-inc/image/upload/v1682509753/mail_movies_phone_r4lzv8.webp",
+      "laptop": "https://res.cloudinary.com/verrb-inc/image/upload/v1682509753/mail_movies_laptop_h9he6t.webp"
+    },
+    "title": "Mail Movies",
+    "link": "https://mail-movies.vercel.app/",
+    "description": "Mail Movies is an online platform that allows you to search your favourite movies, series and get the details mailed to your e-mail.",
+    "tech": ["nextjs", "typescript", "reactjs", "material-ui"]
   }
 ]
