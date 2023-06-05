@@ -34,10 +34,7 @@ export default function Pagelayout({ children }: PropsWithChildren<{}>) {
   return (
     <>
       <Head>
-        <title>
-          A Fullstack Typscript developer with building fast, reliable and
-          scalable software applications | Olubisi David
-        </title>
+        <title>Olubisi David: A Fullstack developer</title>
         <meta
           name="description"
           content="I'm a result oriented software engineer and a team player with 4+ years of experience, skilled in developing software applications using frontend (React.js, javascript) and backend (Node.js, Express.js) technologies, likewise updating existing programs with excellent communication and problem-solving skills to facilitate project success."
@@ -50,7 +47,7 @@ export default function Pagelayout({ children }: PropsWithChildren<{}>) {
         <meta property="og:url" content="https://www.olubisi.pro/" />
         <meta
           property="og:title"
-          content="A Fullstack Typscript developer with building fast, reliable and scalable software applications | Olubisi David"
+          content="A Fullstack developer with building fast, reliable and scalable software applications | Olubisi David"
         />
         <meta property="og:type" content="website" />
         <meta
