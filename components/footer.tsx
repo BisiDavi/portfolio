@@ -17,7 +17,7 @@ export default function Footer() {
     "jest",
   ];
   return (
-    <div className={`footer ${styles.footer}`}>
+    <footer className={`footer ${styles.footer}`}>
       <div className="icons">
         {icons.map((icon, index) => (
           <span className="icon" key={index}>
@@ -56,6 +56,6 @@ export default function Footer() {
           }
         `}
       </style>
-    </div>
+    </footer>
   );
 }
