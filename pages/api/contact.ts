@@ -1,12 +1,7 @@
-import connectToDatabase from '../../utils/connectToDb';
 import ContactForm from '../../model/contact';
 
 export default async function handler(req, res) {
     const { method } = req;
-
-    await connectToDatabase().then((response) => {
-        console.log('response, connected', response);
-    });
 
     switch (method) {
         case 'POST':
