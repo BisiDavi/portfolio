@@ -4,7 +4,7 @@ export default function Logo() {
     return (
         <div className="logo">
             <Link href="/" passHref>
-                @<h3>O.D</h3>
+                <h3>@O.D</h3>
             </Link>
             <style jsx>
                 {`

@@ -35,6 +35,11 @@ export default function Header({ themeState }) {
                         z-index: 1;
                     }
 
+                    nav {
+                        display: flex;
+                        gap: 40px;
+                    }
+
                     .header a {
                         margin: 0px 20px;
                         font-family: "Raleway", sans-serif;
