@@ -1,11 +1,11 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function Logo() {
     return (
-        <div className='logo'>
-            <Link href='/' passHref>
+        <div className="logo">
+            <Link href="/" passHref>
                 <a>
-                    <span>&#60;</span><h3>O. David </h3> <span> / &#62;</span>
+                    @<h3>O.D</h3>
                 </a>
             </Link>
             <style jsx>
