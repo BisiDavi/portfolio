@@ -1,16 +1,15 @@
 import { PropsWithChildren, useEffect, useState, useContext } from "react";
-import dynamic from "next/dynamic";
 import Head from "next/head";
 
+import { ToastContainer } from "react-toastify";
 import Sidebar from "@/components/sidebar";
 import Banner from "@/components/banner";
 import { ThemeContext } from "context/themeContext";
 import useLocalStorage from "@/hooks/useLocalStorage";
 import WhatsAppChatWidget from "@/components/whatsapp";
+import Header from "@/components/header";
+import Footer from "@/components/footer";
 import styles from "@/styles/styles.module.css";
-
-const Header = dynamic(() => import("../components/header"), { ssr: false });
-const Footer = dynamic(() => import("../components/footer"), { ssr: false });
 
 export default function Pagelayout({ children }: PropsWithChildren<{}>) {
     const [savedThemeState, setSavedThemeState] = useState(null);
@@ -82,6 +81,7 @@ export default function Pagelayout({ children }: PropsWithChildren<{}>) {
                     <aside className={`sidebar-grid ${styles.sidebar}`}>
                         <Sidebar />
                     </aside>
+                    <ToastContainer />
                     <main>{children}</main>
                     <div className="whatsapp">
                         <WhatsAppChatWidget />
